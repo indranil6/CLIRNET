@@ -1,0 +1,805 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.dskScreen{font-family: 'Poppins', sans-serif; color: #3b3b3b;}
+.dskScreen p, .dskScreen img, .dskScreen input, .dskScreen textarea, .dskScreen span, .dskScreen form, .dskScreen select, .dskScreen h1, .dskScreen h2, .dskScreen h3, .dskScreen h4, .dskScreen h5, .dskScreen h6{ line-height: 1.5;}
+.dskScreen .fontExo{font-family: 'Exo', sans-serif;}
+.dskScreen .colorGrey{ color:#3b3b3b;}
+.dskScreen{ padding: 110px 0 60px 0;}
+/* .dskScreen .mycontainer{ margin: 0px auto; width: 96%; max-width: 1400px; padding: 0 15px;} */
+@media (min-width: 1430px){
+.container.mycontainer {
+    max-width: 1400px;
+}
+}
+.dskScreen .mblSessionbtm_a:hover:after{ left: 0; transform: translate(0,0) rotate(0); opacity: 1; cursor: pointer; width: 100%; height: 100%; top: 0; } 
+.dskScreen .mblSessionbtm_a:hover{ color: #ffffff;}
+.pointercursorcss{cursor:pointer;}
+/*=============================----------- CARD DOTS MENU*/
+.dskScreen .dskDotsMenu{ position: relative;width: 22px; height: 22px; }
+.dskScreen .dskDotsMenu span.dskDotsMenu-dots{ border: 1px solid #080808; background-color: #080808; width: 4px; height: 4px; position:absolute; left: 50%; transform: translateX(-50%);border-radius: 50%;}
+.dskScreen .dskDotsMenu span.dskDotsMenu-dots:nth-child(1){top: 2px; }
+.dskScreen .dskDotsMenu span.dskDotsMenu-dots:nth-child(3){  bottom: 2px; }
+.dskScreen .dskDotsMenu span.dskDotsMenu-dots:nth-child(2){ transform: translate(-50%,-50%); top: 50%;}
+
+.dskScreen .dskDotsMenu.dskDotsCircle{ background-color: rgba(0,0,0,0.3); border-radius: 6px; width: 26px; height: 26px;}
+.dskScreen .dskDotsMenu.dskDotsCircle span.dskDotsMenu-dots{ border: 1px solid #ffffff; background-color: transparent; }
+.dskScreen .dskDotsMenu.dskDotsCircle span.dskDotsMenu-dots:nth-child(1){ top: 5px; }
+.dskScreen .dskDotsMenu.dskDotsCircle span.dskDotsMenu-dots:nth-child(3){ bottom: 5px; }
+
+/*===========---------Dots Menu popover*/
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon{ display: block; position: relative; padding-left: 22px; margin-bottom: 5px; color: #080808;}
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon:last-child{ margin-bottom: 0px;}
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon span{ width: 16px; height: 16px; position:absolute;left: 0px; transform: translateY(-50%);  top: 50%;}
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon img{ position: absolute; max-height: 100%; max-width: 100%; transform: translate(-50%,-50%); left: 50%; top: 50%;}
+
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon img.dskGrLeftShareImg,.dskDotsMenuSettings .dskDotsMenuSettingsIcon.active img.dskGrLeftShareImgActive{ opacity: 1;}
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon img.dskGrLeftShareImgActive,.dskDotsMenuSettings .dskDotsMenuSettingsIcon.active img.dskGrLeftShareImg{ opacity: 0;}
+
+.dskDotsMenuSettings .dskDotsMenuSettingsIcon.active,.dskDotsMenuSettings .dskDotsMenuSettingsIcon:hover{ color: #34caf5;}
+.dskDotsMenuSettings .st-inline-share-buttons{ margin-top: 8px;}
+.dskDotsMenuSettings .st-inline-share-buttons .st-btn{	padding:0 5px !important; height: 25px !important; margin-right:3px !important;}
+.dskDotsMenuSettings .st-inline-share-buttons .st-btn > img{ max-width: 12px !important; max-height: 12px !important; top: 6px !important;}
+.dskScreen .dskDotsMenuSettings .popover-body{ padding: 8px;box-shadow: 0 2px 18px 0 rgba(0,0,0,0.16); border-radius: 6px;}
+.dskScreen .dskDotsMenuSettings{ border: none;  z-index: 5; width: 120px; top: 0; left: auto; right: 100%;}
+.dskDotsMenuNotRelevant{ margin-top: 14px; text-align: left; border-top: 1px solid #eaeaea; display: block; padding-top: 6px; color: #080808;}
+.dskDotsMenuNotRelevant:hover{color: #34caf5;}
+
+
+
+.dskSharePop .st-inline-share-buttons .st-btn,.dskfeedDtls_footer .st-inline-share-buttons .st-btn{	padding:0 10px !important; height: 35px !important; margin-right:6px !important;}
+.dskSharePop .st-inline-share-buttons .st-btn > img,.dskfeedDtls_footer .st-inline-share-buttons .st-btn img{ max-width: 16px !important; max-height: 16px !important; top: 8px !important;}
+,.dskfeedDtls_footer .st-inline-share-buttons .st-btn{ background-color: transparent;}
+.dskfeedDtls_footer .st-inline-share-buttons .st-btn img{ filter: brightness(0.2);}
+.specialty_popOver{  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); max-width: 180px;}
+.specialty_popOver .popover-body{ padding: 5px;}
+/*=============================----------- clientLogo*/
+.dskScreen .dskSessionClient{ width: 180px;}
+.dskScreen .dskSessionClientItem img{ max-width: 100%; height: 34px; float: right;}
+
+
+/*=============================----------- Header*/
+.dskScreen .dskHeader{ background-color: #ffffff;  box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2); padding: 0px;}
+.dskScreen .dskMarquee{ white-space: nowrap; width: 100%; background-color: #202836;  height: 20px; line-height: 20px; line-height: normal;}
+.dskScreen .dskMarquee span{ line-height: normal;}
+.dskScreen .dskMarquee .overlay{ display: none;}
+.dskScreen .dskNav{ height: 76px; padding: 0 40px;}
+.dskScreen .dskNav .row{ margin: 0px; height: 100%;}
+.dskScreen .dskNav .navbar-brand img{ max-height: 42px;}
+.dskScreen .dskNav .navbar-brand{ margin-right: 4%;}
+.dskHeader .dskNavMenu .nav-link{ color: #080808; position: relative; height: 76px; padding: 0px; margin-right: 2.5%; white-space: nowrap; display: inline-flex; align-items: center;}
+.dskScreen .dskHeader .dskNavMenu .nav-link:before{ position: absolute; bottom: 0px; height: 2px; content: ""; background-color: #2f65e0; width: 0; left: 50%; opacity: 0; transform: translateX(-50%);}
+.dskScreen .dskHeader .dskNavMenu .nav-link:hover,.dskHeader .dskNavMenu .nav-link.active,.dskScreen .dskHeader  .show.dropdown.nav-item .nav-link{color: #2f65e0;}
+.dskScreen .dskHeader .dskNavMenu .nav-link:hover:before,.dskHeader .dskNavMenu .nav-link.active:before,.dskScreen .dskHeader  .show.dropdown.nav-item .nav-link:before{ opacity: 1; width: 100%;}
+.dskScreen .dskNavRight .nav-link{ width: 44px; height: 44px; position: relative; margin-left: 15px; padding: 0px;}
+.dskScreen .dskNavRight .nav-link img.translate_both{ position: absolute; max-height: 27px; max-width: 27px; z-index: 2;}
+.dskScreen .dskNavRight .nav-link:after{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 0px; height: 0px; content: ""; border-radius: 100%; background-color: rgba(27,113,241,0.15);}
+.dskScreen .dskNavRight .nav-link.dskNavProfile{ border: 2px solid #eaeaea; overflow: hidden; width: 58px; height: 58px; padding: 0px; margin-right: 5px;}
+.dskScreen .dskNavRight .nav-link.dskNavProfile:after{ display: none;}
+.dskScreen .dskNavRight .nav-link.active:after,.dskNavRight .nav-link:hover:after,.dskNavRight .nav-link:focus:after{ width: 100%; height: 100%; box-shadow: 0 0 0 5px rgba(27,113,241,0.1);}
+.dskScreen .dskNavVault span{ position: absolute; z-index: 3; top: 0px; right: 0px; background-color: #3b3b3b; color: #ffffff; padding: 3px; min-width: 19px;}
+.dskScreen .dskHeader .dropdown-menu{ margin: 0px; border: none; box-shadow: 0 0 15px 0 rgba(0,0,0,0.15); padding: 5px 0; border-radius: 0 0 6px 6px;}
+.dskScreen .dskHeader .dropdown-menu .dropdown-item{ padding: 5px 15px;}
+.dskScreen .dskHeader .dropdown-item:focus, .dskScreen .dskHeader .dropdown-item:hover{ background-color: #e5e5e5;}
+
+
+#survey_cal,#session_cal,#medwiki_cal,#grandround_cal,#telemed_cal,#dashboard_cal,#discuss_and_refer_cal{color: #2f65e0;}
+#survey_cal:before,#session_cal:before,#medwiki_cal:before,#grandround_cal:before,#telemed_cal:before,#dashboard_cal:before,#discuss_and_refer_cal:before{opacity: 1; width: 100%;}
+
+/*=============================----------- dskFtr*/
+.dskScreen .dskFtr{ padding: 10px 0; background-color: #000000;}
+
+/*=============================----------- Ads*/
+.dskScreen .adsArea{ margin-bottom: 20px;}
+.dskScreen .adsFrame{ margin: 0px auto;}
+.dskScreen .adsFrame img{ width: auto; height: auto; max-width: 100%; max-height: 110px;}
+.dskScreen .adsAreaRight{ overflow: hidden; max-height: 300px;}
+.dskScreen .adsAreaRight .adsFrame img{ height: auto; width: 100%;; }
+
+
+
+.dskLeft{ padding-left: 0px; padding-right: 20px;}
+.dskRight{ padding-right: 0px; padding-left: 0; position: relative; z-index: 3;}
+
+
+/*=============================----------- doctor voice*/
+.dskSlideDocVoice{ margin-bottom: 20px;}
+.dskScreen .dskDoctorVoice{  overflow: hidden;  position: relative; padding: 16px;}
+.dskScreen .dskDoctorVoice .overlay{ background-color: rgba(0,0,0,0.15);}
+.dskScreen .dskDoctorVoiceGraph2,.dskScreen .dskDoctorVoiceGraph1{ position: absolute; bottom: 0px; width: auto; max-width: 50%; height: auto; max-height: calc(100% + 10px);}
+.dskScreen .dskDoctorVoiceGraph1{ left: 0px;}
+.dskScreen .dskDoctorVoiceGraph2{ right: 0px;}
+.dskScreen .mblDoctorVoiceArea{ padding: 0 2%; margin-bottom: 15px;}
+.dskScreen .dskDoctorVoiceContent{ position:relative; z-index: 3;}
+.dskDoctorVoiceTtl{ margin-bottom: 20px;}
+.dskDoctorVoiceAns{ margin-top: 5px;}
+.dskScreen .dskDoctorVoiceAnsRadio{margin-top: 8px; margin-right: 8px; padding: 0;  float: left;}
+.dskScreen .dskDoctorVoiceAnsRadio .form-check-label{position:relative;color:#282828;padding:15px;  display: block; cursor:pointer;margin:0;background-color: #f0fdfe;
+	 text-align: center;transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; border-radius: 6px;}
+.dskScreen .dskDoctorVoiceAnsRadio .form-check-input{opacity:0;position:absolute;margin:0;left:0;top:0;z-index:1;width:100%;height:100%;cursor:pointer}
+.dskScreen .dskDoctorVoiceAnsRadio .form-check-input:checked+.form-check-label{ background-color: #0eced0; color: #ffffff !important;}
+.dskScreen .dskDoctorVoiceAnsRadio.correct .form-check-input:checked+.form-check-label,.dskScreen .dskDoctorVoiceAnsRadio.correct .form-check-label{ background-color: #0dd591; color: #ffffff !important;}
+.dskScreen .dskDoctorVoiceAnsRadio.incorrect .form-check-input:checked+.form-check-label,.dskScreen .dskDoctorVoiceAnsRadio.incorrect .form-check-label{ background-color: #e03763; color: #ffffff !important;}
+
+.dskSlideDocVoice .slick-dots{ bottom: auto; position: relative; width: 100%; float: left; text-align: center;}
+.dskSlideDocVoice .slick-dots li{ width: 14px; height: 14px; margin: 0 1px;}
+.dskSlideDocVoice .slick-dots li button,.dskSlideTop .slick-dots li button:before{ width: 100%; height: 100%; line-height: 14px;}
+.dskSlideDocVoice .slick-dots li button:before{ font-size: 8px;}
+
+/*=============================----------- slide Session*/
+.dskScreen .dskSlideSession{margin-bottom: 20px;}
+.dskScreen .dskSlideSsnCard_link{ overflow: hidden; padding: 16px; position: relative;}
+.dskScreen .dskSlideBgGraphic{ position: absolute; top: 0px; left: 0px;}
+.dskScreen .dskSlideSsnCard_link .overlay{ background-color: rgba(0,0,0,0.3);}
+.dskScreen .dskSlideIn{ position: relative; z-index: 2;}
+.dskScreen .dskSlideTop .row{ margin: 0px;}
+
+.dskScreen .dskSessionTypeIcon{ width: 40px; height: 40px; position: relative; background-color: rgba(0,0,0,0.32); display: inline-block; margin-right: 8px; vertical-align: middle;;}
+.dskScreen .dskSessionTypeIcon img{ position: absolute; max-height: 20px; max-width: 20px;}
+
+.dskScreen .dskSessionTopRight{ display: inline-flex; justify-content: space-between; align-items: center; }
+.dskScreen .dskDotsMenuSssnCard{ margin-left: 10px;}
+
+.dskScreen .dskSessionLive{ position: relative; padding-left: 24px;}
+
+.dskScreen .liveAni{content:""; display:block; position:absolute; top:50%; left:0; transform:translate(0,-50%); width:10px; height:10px; border-radius:100%; z-index:2; }
+.dskScreen .liveAni .aniBx{ display:block; position: absolute; width: 28px; height: 28px; z-index: -1; left: 50%; top: 50%; opacity: 0; margin: -14px 0 0 -14px;  border-radius: 100%;  -webkit-animation: blinking 1.8s infinite;
+    animation: blinking 1.8s infinite;}
+.dskScreen .liveAni .aniBx,
+.dskScreen .liveAni{ background-color:#ffffff;}
+.dskScreen .liveAni .aniBx:first-child{-webkit-animation:blinking 1.8s infinite; animation:blinking 1.8s infinite;}
+.dskScreen .liveAni .aniBx:nth-child(2){animation-delay:.3s; -webkit-animation-delay:.3s;}
+.dskScreen .liveAni .aniBx:nth-child(3){animation-delay:.6s; -webkit-animation-delay:.6s;}
+@-webkit-keyframes blinking{
+	0%{opacity:1;-webkit-transform:scale(0);transform:scale(0)}
+	100%{opacity:0;-webkit-transform:scale(1);transform:scale(1)}
+}
+@keyframes blinking{
+	0%{opacity:1;-webkit-transform:scale(0);transform:scale(0)}
+	100%{opacity:0;-webkit-transform:scale(1);transform:scale(1)}
+}
+
+
+.dskScreen .dskSlideSsnBody{ margin-top: 20px;}
+.dskSlideSsnBodyLeft{ width: calc(100% - 160px); float: left; padding-right: 20px;}
+.dskScreen .dskSlideSsnBodyLeftTtl{ margin-bottom: 20px;}
+.dskScreen .dskSlideSsnDoc .row{ margin: 0px;}
+.dskScreen .dskSlideSsnDocPic{ width: 90px; height: 78px; position: relative; padding: 7px; }
+.dskScreen .dskSlideSsnDocPic .object_fit_cover{ border-radius: 6px; position:relative; z-index: 2;}
+.dskScreen .dskSlideSsnDocPic:after,.dskScreen .dskSlideSsnDocPic:before{ position: absolute; content: ""; width: calc(100% - 30px); height: calc(100% - 20px); border-radius: 6px;}
+.dskScreen .dskSlideSsnDocPic:after{ right: 0px; bottom: 0px; border: 2px solid #ffffff;}
+.dskScreen .dskSlideSsnDocPic:before{ top: 0px; left: 0px; background-color: #ffffff;}
+.dskScreen .dskSlideSsnDocTtl{ width: calc(100% - 90px); padding-left: 15px;}
+.dskScreen .dskSlideSsnDocPicBg{ width: calc(100% - 14px); height: calc(100% - 14px); background-color: #f3f3f3; z-index: 1; position: absolute;}
+
+.dskScreen .dskSlideSsnBodyRight{ width: 160px; float: right;}
+.dskScreen .dskSlideSsnClient{  width: 130px; float: right; margin-top: 15px; }
+.dskScreen .dskSlideSsnClient .dskSessionClientItem{ text-align: center;border-radius: 6px; background-color: #ffffff; padding: 10px;}
+.dskScreen .dskSlideSsnClient .dskSessionClientItem img{ float: none; display: inline-block;  max-height: 28px;}
+.dskSlideSsn_a{ width: 100%; text-align: center; float: left; padding: 10px 6px; position: relative; overflow:hidden ; cursor: pointer;}
+.dskSlideSsn_a span img{ display: inline-block; vertical-align: middle; margin-left: 4px; max-width: 20px; filter: brightness(0) invert(1); float: none;}
+.dskSlideSsn_a:before{ position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; content: ""; background-color: rgba(0,0,0,0.1);}
+.dskSlideSsn_a span{ position: relative; z-index: 1;}
+
+.dskSlideTop .slick-dots{ bottom: auto; position: relative; width: 100%; float: left; text-align: center;}
+.dskSlideTop .slick-dots li{ width: 14px; height: 14px; margin: 0 1px;}
+.dskSlideTop .slick-dots li button,.dskSlideTop .slick-dots li button:before{ width: 100%; height: 100%; line-height: 14px;}
+.dskSlideSessionCard{ float: left;;}
+.dskSlideTop .slick-dots li button:before{ font-size: 8px;} 
+/* .dskSlideTop .slick-dots li button:before{ font-size: 28px;}  */
+
+
+/*=============================----------- Recent*/
+.dskRecentTTl{ margin-bottom: 10px;}
+.dskMasonryCard{ padding: 0px 5px; margin-top: 10px;}
+.dskMasonryCardArea{ margin: -10px -5px 0;}
+/*=============================----------- dskSession*/
+.dskScreen .mblSessionCard_link{ overflow: hidden; background-color: #ffffff; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);}
+.dskScreen .mblSessionTopArea{ position: relative; overflow: hidden; padding: 10px 8px 40px;}
+.dskScreen .ssnTopBgGraphic{ position: absolute; top: 0px; left: 0px;}
+.dskScreen .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.25);}
+.dskScreen .mblSessionTopIn{ position: relative; z-index: 2;}
+.dskScreen .mblSessionTop .row{ margin: 0px;}
+.dskScreen .mblSessionTop{ margin-bottom: 20px;}
+.dskScreen .mblSessionTypeIcon{ width: 26px; height: 26px; position: relative; background-color: rgba(0,0,0,0.32); display: inline-block; margin-right: 5px; vertical-align: middle;;}
+.dskScreen .mblSessionTypeIcon img{ position: absolute; max-height: 16px; max-width: 16px;}
+.dskScreen .mblSessionTopRight{ display: inline-flex; justify-content: space-between; align-items: center; }
+.dskScreen .mblDotsMenuSssnCard{ margin-left: 5px;}
+.dskScreen .mblSessionBttmArea{ margin-top: -30px; padding: 0 10px 10px; position: relative; z-index: 3;}
+.dskScreen .mblSessionDocRow{ padding: 8px; box-shadow: 0 3px 10px 0 rgba(0,0,0,0.14); background-color: #ffffff; margin-bottom: 8px;}
+.dskScreen .mblSessionDocRow .row{ margin: 0px;}
+.dskScreen .mblSessionDocPic{ width: 54px; height: 54px; overflow: hidden; background-color: #cccccc;}
+.dskScreen .mblSessionDocTtl{ width: calc(100% - 54px); padding-left: 8px;}
+.dskScreen .mblSessionbtm_a span{ position: relative; z-index: 2;}
+.dskScreen .mblSessionbtm_a img{display: inline-block; vertical-align: middle; margin-left: 5px; margin-top: -1px; }
+.dskScreen .mblSessionbtm_a{ padding: 10px 18px; position: relative; overflow: hidden; cursor: pointer;}
+.dskScreen .mblSessionbtm_a:before{ position:absolute; top: 0px; left: 0px; width: 100%; height: 100%; content: ""; background-color: rgba(0,0,0,0.25);}
+.dskScreen .mblSessionbtm_a:after{ position:absolute;  background-color: rgba(0,0,0,0.2); content: ""; transform: translateY(-50%) rotate(45deg); top: 50%; width: 200%; height: 200%; left: -100%;}
+.dskScreen .mblSessionbtm_a:hover{ color: #ffffff;}
+.dskScreen .mblSessionbtm{ display: flex; align-items: center; justify-content: space-between; margin-top: 10px;}
+.dskScreen .mblSessionLive{ position: relative; padding-left: 22px;}
+.dskScreen .liveAni{width:8px; height:8px; }
+.dskScreen .liveAni .aniBx{ width: 26px; height: 26px; margin: -13px 0 0 -13px; }
+
+
+/*=============================----------- Medwiki*/
+.dskScreen .mblMedWikiCard_link{ background-color: #ffffff; padding: 10px 0; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);}
+.dskScreen .mblMedWikiCard_link > .row{ margin: 0px;}
+.dskScreen .mblMedWikiPic{ width: 82px; height: 100px; padding: 6px 6px 6px 0; position: relative; }
+.dskScreen .mblMedWikiPicGraphic{ height: 100%; width: 80%; position: absolute; right: 0px; top: 0px; border-radius: 0 6px 6px 0;}
+.dskScreen .mblMedWikiPicIn{ width: 100%; height: 100%; overflow: hidden; border-radius: 0 6px 6px 0; position: relative; z-index: 1;}
+.dskScreen .mblMedWikiContent{ padding: 0 8px; width: calc(100% - 82px); }
+.dskScreen .mblMedWikiContentTtl{ line-height: 1.3 !important;}
+.dskScreen .mblMedWikiContentTop{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 5px;}
+.dskScreen .mblMedWikiSpeacality{ padding: 4px 5px; border: 1px solid #cccccc;}
+.dskScreen .mblMedWikiSpeacalityDots{ background-color: #03d0d7; border-radius: 10px; display: inline-flex; justify-content: space-between; align-items: center; padding: 2px 4px; vertical-align: middle; margin-left: 6px;}
+.dskScreen .mblMedWikiSpeacalityDots span{ border-radius: 50%; width: 2px; height: 2px; background-color: #ffffff; display: inline-block; vertical-align: middle;}
+.dskScreen .mblMedWikiSpeacalityDots span:nth-child(2){ margin: 0 2px;}
+.dskScreen .mblMedWikiPicIn .overlay{ background-color: rgba(0,0,0,0.2);}
+.dskScreen .mblMedWikiSlider .slick-list{ padding-left:0 !important;}
+.dskScreen .mblMedWikiClient{ float: right; margin-top: 10px;}
+
+
+/*=============================----------- polls surveys*/
+.dskScreen .mblPllsSrvs_link{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);}
+.dskScreen .mblPllsSrvsPic{  height: 140px; position: relative; overflow: hidden; background-color: #cccccc;}
+.dskScreen .mblPllsSrvsPic .overlay{ background-color: rgba(0,0,0,0.4);}
+.dskScreen .mblPllsSrvsTag{ position: absolute; top: 10px; left: -2px; background-color: #34caf5; padding: 8px 0 8px 10px; z-index: 2;}
+.dskScreen .mblPllsSrvsTag span{ position: relative; z-index: 2;}
+.dskScreen .mblPllsSrvsTag:before{ position: absolute; top: 0px; right: -20px; height: 100%; background-color: #34caf5; content: ""; width: 100%; transform: skewX(30deg);}
+.dskScreen .mblPllsSrvsContent{ padding: 0 10px 10px; position: relative; z-index: 1; margin-top: -40px; }
+.dskScreen .mblPllsSrvsContentTtl{ line-height: 1.3 !important; margin-bottom: 6px;}
+.dskScreen .mblPllsSrvsContentText{line-height: 1.4 !important;}
+.dskScreen .mblPllsSrvsDrwBox{ display: flex; justify-content: space-between; align-items: center; padding: 8px 10px; background-color: #ffffff; box-shadow: 0 2px 18px rgba(0,0,0,0.14);  margin-bottom: 14px;}
+.dskScreen .mblPllsSrvsPoints span{ display: block; color: #34caf5; line-height: 1.3 !important;}
+.dskScreen .mblPllsSrvsbtm{ display: flex; align-items: center; justify-content: space-between; margin-top: 10px;}
+.dskScreen .mblPllsSrvsbtm_a{ padding: 10px 16px; text-align: center; position: relative; background-color: #355ed3; cursor: pointer;}
+.dskScreen .mblPllsSrvsbtm_a img{ display: inline-block; vertical-align: middle; margin-left: 8px; max-width: 18px;}
+.dskScreen .mblPllsSrvsSlider .slick-list{ padding-left:0 !important;}
+.dskScreen .mblDotsMenuPllsQzsCard{position: absolute; top: 10px; right: 2%; z-index: 3; left: auto;}
+
+.dskScreen .dskPollsCard .dskPollsTop{ position: relative; display: flex; align-items: center; justify-content: space-between; padding: 10px 0;}
+.dskScreen .dskPollsCard .mblPllsSrvsTag{ position: relative; top: auto; left: auto;}
+.dskScreen .dskPollsCard .dskPollsTopRight{ display: inline-flex; justify-content: space-between; align-items: center; padding-right: 10px;}
+.dskScreen .dskPollsCard .mblPllsSrvsContent{ margin: 0px;}
+.dskScreen .dskPollsCard .dskPollsCardDots{ position: relative; margin-left: 15px; top: auto;}
+.dskScreen .dskPollsCard .srvPollsRadio .form-check-label{ padding: 15px 0;}
+.dskScreen .dskPollsCard .srvPollsProgressBarIn{ padding-top: 15px ; padding-bottom: 15px;}
+.pollCardPoweredBy span {display: block; margin-bottom: 3px;}
+
+
+
+
+/*=======================----------dskArchiveCard*/
+.dskScreen .dskArchiveCard .mblSessionBttmArea{ margin-top: 0px; padding-top: 15px;}
+.dskScreen .dskArchiveCard .dskArchiveCardTtl{ margin-bottom: 10px; cursor: pointer;}
+.dskScreen .dskArchiveCard  .mblSessionDocRow{ box-shadow: none; border: 1px solid #e9edf8;}
+.dskScreen .dskArchiveCard .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.25);transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; }
+.dskScreen .dskArchiveCard .mblSessionTopArea{ padding-bottom: 0px; height:200px;}
+.dskScreen .dskArchiveCardPlay{ position: absolute; z-index: 8; opacity: 0.9; max-width: 60px; max-height: 60px;}
+.dskScreen .dskArchiveCard .mblSessionbtm_a{ background-color: #34caf5;}
+.dskScreen .dskArchiveCard .mblSessionbtm_a:before{ display: none;}
+.dskScreen .dskArchiveCard .mblSessionCard_link:hover .dskArchiveCardPlay{ opacity: 1;}
+.dskScreen .dskArchiveCard .mblSessionCard_link:hover .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.75);}
+
+.dskScreen .dskNo-ArchiveVideoCard .mblSessionTopArea{ height: 140px;}
+.dskScreen .dskNo-ArchiveVideoCard .mblSessionbtm{ justify-content: flex-end;}
+.dskScreen .dskNo-ArchiveVideoCard .mblSessionTopArea{ background-color: #585858;}
+.dskScreen .dskNo-ArchiveVideoCard .ssnTopBgGraphic{ filter: grayscale(1);}
+.dskScreen .dskNo-ArchiveVideoCard .mblSessionCard_link:hover .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.45);}
+.dskScreen .dskNo-ArchiveVideoCard .dskNo-ArchiveVideoCardInfo{ position: absolute; z-index: 5; color: #ffffff; text-align: center; width: 100%;}
+
+/*=============================----------- Grand Rounds*/
+.dskgrCard{ z-index: 5;}
+.dskgrCard_link{ background-color: #ffffff; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);}
+.dskScreen .dskgrCardTop{ display: flex; align-items: center; justify-content: space-between; position: relative; z-index: 3; }
+.dskgrCardPic{ height: 180px; overflow: hidden; border-radius: 6px 6px 30px 30px; background-color:#202836; position: relative; padding: 10px;}
+.dskgrCardPic .object_fit_cover{ position: absolute; top: 0px; left: 0px;}
+.dskgrCardPic .overlay{ background-color: rgba(0,0,0,0.4);}
+.dskgrCardBtm{ padding: 0 10px ; margin-top: -60px; position: relative; z-index: 9;}
+.dskgrCardBtmIn{ background-color: #ffffff; padding: 15px; border-radius: 10px;}
+.dskgrCardTtl{ margin-bottom: 5px;}
+.dskScreen .dskgrCardFooter{ display: flex; align-items: center; justify-content: space-between; margin-top: 15px;}
+.dskScreen .dskgrCardFooter .mblSessionbtm_a{ background-color: #34caf5;}
+.dskScreen .dskgrCardFooter .mblSessionbtm_a:before{ display: none;}
+
+.dskGrMstrDoc{ margin-top: 15px; }
+.dskGrMstrDocBoxInPic{ width: 60px; height: 60px; overflow: hidden; position: relative; border: 2px solid #dadada; transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out;}
+.dskGrMstrDocRow{ margin: 0 0 0 -8px;}
+.dskGrMstrDocBox{ position: relative; padding: 0 0 0 8px; width: 100%; display: none; margin-top: 8px;}
+.dskGrMstrDocBoxIn{ padding: 8px; border-radius: 6px; background-color: #f2f2f2;}
+.dskGrMstrDocBoxIn > .row{ margin: 0px;}
+.dskGrMstrDocBoxContent{ width: calc(100% - 60px); padding-left: 15px;}
+.dskGrMstrDocBoxContent h4{ margin-bottom: 1px;}
+
+.dskGrMstrDocBox.dskGrMstrDocPopShow{ width: auto; margin-top: 0px;}
+.dskGrMstrDocBox.dskGrMstrDocPopShow .dskGrMstrDocBoxIn{ padding:10px 0 0 0 ; background-color: transparent; cursor: pointer;}
+.dskGrMstrDocBox.dskGrMstrDocPopShow .dskGrMstrDocBoxContent{ display: none;}
+.dskGrMstrDocBox.dskGrMstrDocPopShow .dskGrMstrDocBoxIn:before{ position: absolute; top: -10px; left: 50%; transform: translateX(-50%); z-index: 2; border-top: 6px solid #23c8cd; border-left: 6px solid transparent; content: ""; border-right: 6px solid transparent; opacity: 0; transition: all 03s; -webkit-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;}
+
+.dskGrMstrDocProfile{ position: absolute; left: 0px; width: 220px; height: 180px; z-index: 9999; overflow: hidden; bottom:100%; display: none; background-color: #282828;}
+.dskGrMstrDocProfile .overlay{ background-color: rgba(0,0,0,0.2);}
+.dskGrMstrDocProfileTxt{ position: absolute; bottom: 0px; left: 0px; padding: 10px; background-color: #23c8cd; z-index: 3;}
+.dskGrMstrDocPopShowActive.dskGrMstrDocBox.dskGrMstrDocPopShow .dskGrMstrDocBoxIn:before{ top: 0; opacity: 1;}
+.dskGrMstrDocPopShowActive .dskGrMstrDocBoxInPic{ border-color:#23c8cd ; }
+
+
+.dskGrMstrDocBox:nth-child(1),.dskGrMstrDocBox:nth-child(2),.dskGrMstrDocBox:nth-child(3),.dskGrMstrDocBox:nth-child(4),.dskGrMstrDocBox:nth-child(5){
+	display: block;
+}
+.dskGrMstrDocBox:nth-child(5) .dskGrMstrDocBoxIn:before{ display: none;}
+.dskGrMstrDocBox:nth-child(5) .dskGrMstrDocBoxInPic .overlay{ background-color: rgba(0,0,0,0.8);}
+.dskGrMstrDocCount{ position: absolute; top: 50%; transform: translateY(-50%); color: #ffffff; font-size: 20px; z-index: 2; left: 0px; width: 100%; text-align: center;}
+.dskMasterDoctorPop .dskGrMstrDocBox{ float: left; margin: 3px 0; padding: 0px; width: 100%; display: block;}
+.dskMasterDoctorPop .modal-content{ border: none;}
+.dskMasterDoctorPop .popClose{ width: 30px; height: 30px; background-color: #e03763; position: relative;}
+.dskMasterDoctorPop .popClose img{ max-width: 14px; max-height: 14px; position:absolute; filter:brightness(0) invert(1);}
+.dskMasterDoctorPop .popClose:hover{ background-color: #dcdcdc;}
+.dskMasterDoctorPop .popClose:hover img{ filter: invert(0) brightness(1);}
+/*=============================----------- Right*/
+
+/*=============================----------- announcement*/
+.dskAnnouncment{ position: relative; padding-bottom:14px ; margin-bottom: 20px;}
+.dskAnnouncment:before{ position: absolute; height: calc(100% - 10px); width: 90%; border:8px solid #1a6fec; content: ""; transform: translateX(-50%); bottom: 0px; left: 50%;}
+.dskAnnouncmentIn{ position: relative; padding: 65px 15px 30px; overflow: hidden; z-index: 1; background-color: #1a6fec;box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);}
+.dskAnnouncmentIn:before{ position: absolute; width: 100%; height: 100%; left: -50%; background-color:rgba(0,0,0,0.14); content: ""; transform: skewX(30deg); top: 0px;}
+.dskAnnouncmentBigMike{ position: absolute; width: auto; height: auto; max-height: calc(100% - 30px); max-width: 180px; right: 5%;}
+.dskAnnouncmentIcon{ position: absolute; width: 90px; height: 90px; top: -30px; left: -20px; background-color: #ffffff;}
+.dskAnnouncmentIcon img{ max-width: 35px; max-height: 38px; position: absolute; margin-top: 15px; margin-left: 10px;}
+.dskAnnouncmentIn h3{ margin-bottom: 5px;}
+.dskAnnouncmentContent{ position: relative; z-index: 2;}
+.dskAnnouncmentClose{ position: absolute; top: -10px; right: -10px; width: 50px; height: 50px; background-color:#ffffff;}
+.dskAnnouncmentClose img{ position: absolute; margin-top: 2px; margin-left: -2px; max-width: 16px; max-height: 16px; ;}
+
+/*=============================----------- trending medwiki*/
+.dskScreen .dskTrendingMedwiki{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); margin-bottom: 20px;}
+.dskTrendingMedwikiTTl{ padding: 10px; border-bottom: 1px solid #f3f3f3;}
+.dskScreen .dskTrendingMedwikiCard .mblMedWikiCard_link{border-bottom: 1px solid #f3f3f3; box-shadow: none; padding: 8px 0;}
+.dskScreen .dskTrendingMedwikiCard .dskSessionClient{ width: 100%;}
+.dskScreen .dskTrendingMedwikiCard  .dskSessionClientItem img{ height: 28px;}
+.dskScreen .dskTrendingMedwikiCard .mblMedWikiSpeacality{ padding:2px 4px ;}
+
+.dskTrendingSlider > .row{ margin: 0px;}
+.dskTrandingGrandRounds{ padding: 0 10px 0 0; position: relative;}
+.dskTrendingSlider{ margin-bottom: 30px; margin-top: 15px;}
+
+/*=============================----------- trending GR*/
+.dskTrandingGrandRounds .dskgrCard_link{ box-shadow: none;}
+.dskTrandingGrSlider .slick-list{ overflow-y: visible;}
+.dskTrandingGrSlider{ margin-top: 6px;  padding: 0 0 20px 0;}
+.dskTrendingSlider .slick-dots{ bottom: -5px;}
+.dskTrendingSlider .slick-dots li{ width: 14px; height: 14px; margin: 0 1px;}
+.dskTrendingSlider .slick-dots li button,.dskSlideTop .slick-dots li button:before{ width: 100%; height: 100%; line-height: 14px;}
+/* .dskTrendingSlider .slick-dots li button:before{ font-size: 8px;}
+ */
+ .dskTrendingSlider .slick-dots li button:before{ font-size: 8px;} /* added by sumit */
+
+
+.dskTrandingSurvey{ padding: 0 0 0 10px; position: relative;}
+.dskScreen .dskTrandingSurvey .mblPllsSrvs_link{ box-shadow: none;}
+.dskTrandingSurveySlider{margin-top: 6px;  padding: 0 0 20px 0;}
+
+
+
+
+/*=================--------------comments*/
+.dskCommentsAreaRow{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); margin-bottom: 5px; padding: 12px; display: flex;}
+.dskCommentsAreaPic{ display: inline-flex; align-items: center; justify-content: center; overflow:hidden; position: relative; width: 94px; height: 94px; background-color: #23c8cd;}
+.dskCommentsContent{ width: calc(100% - 94px); padding-left: 20px; padding-top: 10px;}
+.dskCommentsContent p{ padding-bottom: 8px;}
+.dskCommentsAreaBy{  margin-bottom: 2px;}
+.dskCommentsAreaReply_a{ margin-left:20px ; color: #34caf5;}
+
+.dskComments_frm{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); position: relative; margin-top: 10px;}
+.dskComments_frmInput{ border: none; padding: 0 150px 0 12px; height: 65px;}
+.dskComments_frmSubmit{ text-align: center; background-color: #34caf5; color: #ffffff; position: absolute; top: 0px; right: 0px; width: 140px; padding: 0px; height: 100%; border-radius: 0px;}
+.dskCommentsReply{ margin-top: 15px;}
+.dskCommentsReply .dskCommentsAreaRow{ box-shadow: none; padding: 8px; border: 1px solid #eaeaea;}
+.dskCommentsReply .dskCommentsAreaPic{ width: 60px; height: 60px;}
+.dskCommentsReply .dskCommentsContent{ width: calc(100% - 60px); padding-left: 15px; padding-top: 0;}
+.dskCommentsReply .dskComments_frm{box-shadow: none;  border: 1px solid #eaeaea;}
+.dskCommentsReply .dskComments_frmInput{ padding: 0 110px 0 8px; height:46px;}
+.dskCommentsReply .dskComments_frmSubmit{ width: 100px;}
+.dskComments_frm .form-control,.dskComments_frmSubmit {  border: none;}
+.dskComments_frm .dskComments_frmSubmit:focus{ border: none; background-color: #34caf5}
+.dskComments_frm .dskComments_frmSubmit:hover{ background-color: #1a6fec;}
+
+/*Grand Rounds*/
+.dskGr .dskBody{ padding-top: 10px;}
+.dskGr .dskGrMoreTtl{ margin-bottom: 8px;}
+.dskGr .dskGrMoreBtn{ margin: 15px auto 0; background-color: #34caf5; display: table; padding: 10px 25px;}
+.dskGr .dskGrMoreBtn:before{ display: none;}
+.dskGr .dskGrMoreList{ margin-bottom: 20px;}
+.dskGrLeftMain{ margin-bottom: 20px;}
+.dskGrLeftVideo { height: 500px; border-radius: 6px; overflow: hidden; margin-bottom:20px; background-color: #cccccc;}
+.dskGrLeftVideo > div,.feedRow_Pic > div{ height:100% !important;}
+.dskGrLeftVideo iframe{ width: 100%; height: 100%;}
+.dskMainGrTtl{ margin-bottom: 15px;}
+.dskGrLeftTop{ margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;}
+.dskGrLeftVideoSharePnl{ margin-bottom: 20px; display: flex; align-items: center; justify-content: space-between;}
+.dskGrLeftVideoSharePnl a{ display: inline-block;}
+.dskGrLeftVideoSharePnl a img{ max-width: 28px; max-height: 28px; display: inline-block ; vertical-align: middle;}
+.dskGrLeftVideoSharePnl a span{ margin-left: 4px;}
+.dskGrLeftVideoSharePnlLeft a{ margin-right: 30px; width: 28px; height: 28px; position: relative;}
+.dskGrLeftVideoSharePnlLeft a img{ position: absolute; max-height: 100%; max-width: 100%;}
+.dskGrLeftVideoSharePnlLeft a img.dskGrLeftShareImg,.dskGrLeftVideoSharePnlLeft a.active img.dskGrLeftShareImgActive{ opacity: 1;}
+.dskGrLeftVideoSharePnlLeft a img.dskGrLeftShareImgActive,.dskGrLeftVideoSharePnlLeft a.active img.dskGrLeftShareImg{ opacity: 0;}
+.dskScreen .feedRow_Pic {height: 50vh; background-color: #282828;  }
+.dskGr .dskRightsticky{ position: sticky;
+	position: -webkit-sticky;
+	top: 100px;}
+
+.dskGrDtlsMasterDoc{background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); position: relative; margin-top: 10px; padding: 10px;}
+.dskGrDtlsMasterDoc .dskGrMstrDocProfile{ left: auto; right: 0px;}
+
+.dskGrDtlsAttached{background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); position: relative; margin-top: 10px; padding: 10px;}
+
+.dskGrDtlsAttachedRow{ margin: 0 0 0 -5px;}
+.dskGrDtlsAttachedBox{ padding: 5px 0 0 5px;}
+.dskGrDtlsAttachedBoxIn{ height: 80px; position:relative; overflow: hidden; background-color: #e9edf8; cursor: pointer;}
+.dskGrDtlsAttachedDownl{ position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 2; background-color:rgba(27,113,241,0.85); opacity: 0;}
+.dskGrDtlsAttachedDownl img{ position: absolute; max-height: 28px; max-width: 28px;}
+.dskGrAttchdFileType-img .dskGrDtlsAttachedPic{ width: 100%; height: 100%; object-fit: cover;}
+.dskGrAttchdFileType-doc .dskGrDtlsAttachedPic{ width: auto; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); max-width: calc(100% - 20px); max-height: calc(100% - 20px);}
+.dskGrDtlsAttachedBoxIn:hover .dskGrDtlsAttachedDownl{ opacity: 1;}
+.dskGrDtlsSponserd{ background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); position: relative; margin-top: 10px; padding: 10px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;}
+.dskScreen .dskGrDtlsClient .dskSessionClientItem img{ height: 40px;}
+.dskScreen .dskGrDtlsClient{ width: 160px;}
+.dskGrDtlsSponserdTtl{ position: relative; padding-bottom: 8px;}
+.dskGrDtlsSponserdTtl:before{ position:absolute; bottom: 0px; content: ""; left: 0px; width: 30px; height: 1px; background-color: #34caf5;}
+.dskRightShowMobile{ display: none;}
+.dskGrDtlsAttachedName{ position: absolute; left: 0px; width: 100%; padding: 5px; background-color:rgba(0, 0, 0, 0.65); bottom: 0px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+
+
+/*search_ListCards*/
+.dskScreen .search_ListCards{   padding: 0px 5px; margin-top: 10px;}
+.dskScreen .search_ListCards .dskMasonryCard{ max-width: 100%; padding: 0px; margin: 0px; flex: 0 0 100%; width: 100%;}
+.dskScreen .feeddetail_related{flex: 0 0 100%;  max-width: 100%; width: 100%; float: left; padding: 0px; margin: 0px;}
+.dskScreen .feeddetail_related .mblMedWikiCard_link{border-radius: 0px;}
+.relatedButtns{ padding: 10px;}
+.relatedButtns .mblSessionbtm_a{ background-color: #03d0d7;}
+.relatedButtns .mblSessionbtm_a:after{ height: 400%;}
+.relatedButtns .mblSessionbtm_a:before{ display: none;}
+
+.dskScreen .dskIcantAttnd{ margin-top: 10px;}
+.dskScreen .dskIcantAttndBtn{ display: inline-block; border-bottom: 1px solid #e03763; padding:0 0 3px 0; background-color: transparent;}
+
+
+/* Hospital Portal Home */
+.dskScreen .dskHspltDbList{ margin-bottom: 15px;}
+.dskScreen .dskHspltDbListTTlArea{ margin-bottom: 20px;}
+.dskScreen .dskHspltDbListTTlArea > .row{ margin: 0px;}
+.dskScreen .dskHspltCmnTtl{ position: relative; padding: 10px 0 8px 15px ; border-bottom: 2px solid #080808;}
+.dskScreen .dskHspltCmnTtl:before,.dskScreen .dskHspltCmnTtl:after{ position: absolute; top: 0px; content: ""; left: 0px; background-color: #080808;}
+.dskScreen .dskHspltCmnTtl:before{ width: 50%; height: 2px;}
+.dskScreen .dskHspltCmnTtl:after{ height: 100%; width: 2px;}
+.dskScreen .dskHspltDbListTTlRight{ display: inline-flex; align-items: center; justify-content: space-between;}
+.dskScreen .dskHspltDbSearch{ position: relative; width: 450px;}
+.dskScreen .dskHspltDbSearchInput{ width: 100%; height: 60px; padding: 0 85px 0 15px; border: none; box-shadow: 0 4px 18px 0 rgba(0,0,0,0.18); border-radius: 10px;background-color: #ffffff;}
+.dskScreen .dskHspltDbSearchBttn{ position:absolute; top: 0px; right: 0px; background-color: transparent; height: 100%; width: 70px;}
+.dskScreen .dskHspltDbSearchBttn img{ position: absolute; max-width: 30px; max-height: 30px;}
+.dskScreen .dskHspltDbFilter{box-shadow: 0 4px 18px 0 rgba(0,0,0,0.18); border-radius: 10px; width: 60px; height: 60px; position: relative; background-color: #ffffff; margin-left: 15px;}
+.dskScreen .dskHspltDbFilter img{ position: absolute; max-width: 30px; max-height: 30px;}
+
+
+.dskScreen .dskHspltDbTop{ margin-bottom: 50px;}
+.dskScreen .dskHspltDbTop > .row{ margin: 0px;}
+.dskScreen .dskHspltDbActivities{ box-shadow: 0 4px 18px 0 rgba(0,0,0,0.18); background-color: #ffffff; padding: 15px;}
+.dskScreen .dskHspltDbActivitiesBtn{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;}
+.dskScreen .dskHspltDbActivitiesBtn h4{ position: relative; padding-right: 45px; }
+.dskScreen .dskHspltDbActivitiesBtn h4:before,.dskScreen .dskHspltDbActivitiesBtn h4:after{ position: absolute; right: 0px; content: ""; height: 1px; background-color: #080808; top: 50%; transform: translateY(-50%);}
+.dskScreen .dskHspltDbActivitiesBtn h4:before{ width: 22px; margin-top: -3px; right: 16px;}
+.dskScreen .dskHspltDbActivitiesBtn h4:after{ width: 38px; margin-top: 3px;}
+.dskScreen .dskHspltDbActivitiesBtn a{ background-color: #03d0d7; display: inline-block; padding: 10px 24px;}
+.dskScreen .dskHspltDbActivitiesBtn a:hover{ color: #ffffff; background-color: #1b71f1;}
+.dskScreen .dskHspltDbActivitiBxIn{position: relative; overflow: hidden; padding:10px 15px; cursor: pointer;}
+.dskScreen .dskHspltDbActivitiBxIn:before{ position: absolute; top: 0px; width: 100%; height: 100%; background-color: rgba(0,0,0,0.1); content: ""; transform: skewX(-35deg); right: -40%;}
+.dskScreen .dskHspltDbActivitiBxCnt{ position: relative; z-index: 2;}
+.dskScreen .dskHspltDbActivitiBxArrow{ width: 38px; height: 38px; position: absolute; top: 0px; right: 0px;}
+.dskScreen .dskHspltDbActivitiBxArrow img{ position:absolute; max-width: 18px; max-height: 10px;}
+.dskScreen .dskHspltDbActivitiRow{ margin:-10px 0 0 -10px ;}
+.dskScreen .dskHspltDbActivitiBx{ padding: 0 0 0 10px; margin-top: 10px;}
+
+.dskScreen .dskHspltDb-activeCases .dskHspltDbActivitiBxIn{ background-color: #1b71f1; }
+.dskScreen .dskHspltDb-activeCases .dskHspltDbActivitiBxArrow{ background-color: #1b71f1; box-shadow: 0 4px 17px 0 rgba(0,0,0,0.08); }
+.dskScreen .dskHspltDb-completed .dskHspltDbActivitiBxIn{ background-color: #11c099; }
+.dskScreen .dskHspltDb-completed  .dskHspltDbActivitiBxArrow{ background-color: #11c099; box-shadow: 0 4px 17px 0 rgba(0,0,0,0.08); }
+.dskScreen .dskHspltDb-pending  .dskHspltDbActivitiBxIn{ background-color: #caa215; }
+.dskScreen .dskHspltDb-pending  .dskHspltDbActivitiBxArrow{ background-color: #caa215; box-shadow: 0 4px 17px 0 rgba(0,0,0,0.08); }
+.dskScreen .dskHspltDb-rejected  .dskHspltDbActivitiBxIn{ background-color: #c92149; }
+.dskScreen .dskHspltDb-rejected  .dskHspltDbActivitiBxArrow{ background-color: #c92149; box-shadow: 0 4px 17px 0 rgba(0,0,0,0.08); }
+
+.dskHspltDbSliderArea{ padding: 0 0 30px 0;}
+.dskHspltDbSliderArea:before{ position: absolute; width: calc(100% - 100px); transform: translateX(-50%); border: 20px solid #03d0d7; height: 100%;  bottom: 0px; left: 50%; content: "";}
+.dskHspltDbSliderArea .slick-dots{ position: absolute; bottom: 0px; z-index: 6;}
+.dskHspltDbSliderArea .slick-dots li{ margin: 0 2px; width: 12px; height: 20px; position: relative; vertical-align: middle;}
+.dskHspltDbSliderArea .slick-dots li:before{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); content: ""; width: 8px; height: 8px; border-radius: 50%; border: 2px solid #ffffff; }
+.dskHspltDbSliderArea .slick-dots li:hover:before{ background-color: rgba(0,0,0,0.14);}
+.dskHspltDbSliderArea .slick-dots li.slick-active:before{ background-color: #ffffff; }
+.dskHspltDbSliderArea .slick-dots li button{ position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; opacity: 0;}
+
+.dskScreen .dskHspltDbSlider{ padding: 0 20px 0 0;}
+.dskScreen .dskHspltDbSliderBox{ position: relative; overflow: hidden;  padding:20px 25px;  float: left;}
+.dskScreen .dskHspltDbSliderBoxBg{ position: absolute; top: 0px; left: 0px;}
+.dskScreen .dskHspltDbSliderBox > .overlay{ background-color: rgba(0,0,0,0.74);}
+.dskScreen .dskHspltDbSliderPic-1{ position: absolute; top: 0px; left: 0px; height: 100%; width: 232px; z-index: 2; background-color: #03d0d7;}
+.dskScreen .dskHspltDbSliderPic-1 > .overlay{ background-color: #03d0d7; opacity: 0.76;}
+.dskScreen .dskHspltDbSliderBoxIn{ position: relative; z-index: 3; display: flex; justify-content: space-between;}
+.dskScreen .dskHspltDbSliderPic-2{width: 232px; height: 194px; overflow: hidden; border: 3px solid #ffffff; border-radius: 10px; background-color: #ffffff; position: relative;}
+.dskScreen .dskHspltDbSliderPic-2 img.translate_both{ position: absolute; max-width: calc(100% - 6px); max-height: calc(100% - 6px);}
+.dskScreen .dskHspltDbSliderBoxInRight{ width: calc(100% - 232px); padding-left: 40px; padding-top: 10px;}
+.dskScreen .dskHspltDbSliderBoxInRight .dskHspltDbCardBttn{ margin-top: 12px; padding: 10px 25px;}
+.dskScreen .dskHspltDbSliderBoxInRight .dskHspltDbCardBttn:hover:before{right: 0; margin-top: 0; border-radius: 0px;}
+.dskScreen .dskHspltDbSliderBoxInRight h2{ margin-bottom:2px ;}
+.dskScreen .dskHspltDbSliderBoxInRight h4{ margin-bottom:6px ; color: #03d0d7;}
+.dskScreen .dskHspltDbSliderBoxTag{ position: absolute; z-index: 5; top: 16px; left: -32px; background-color: #d7137d; transform: rotate(-40deg); padding: 0 30px;}
+
+.dskScreen .dskHspltDbListCard{ margin: -10px -5px 0;}
+.dskScreen .dskHspltDbCard{ padding: 0 5px; margin-top: 10px;}
+.dskScreen .dskHspltDbCardIn{  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.1); background-color: #ffffff; padding: 15px;}
+.dskScreen .dskHspltDbCardIn .row{ margin: 0px;}
+.dskScreen .dskHspltDbCardPic{ width: 110px; height: 110px; border: 2px solid #03d0d7; padding: 6px;}
+.dskScreen .dskHspltDbCardPicIn{ width: 100%; height: 100%; overflow: hidden; background-color: #f2f2f2; position: relative;}
+.dskScreen .dskHspltDbCardPicIn .translate_both{ position: absolute; max-width: calc(100% - 20px); max-height: calc(100% - 20px);}
+.dskScreen .dskHspltDbCardRight{ width: calc(100% - 110px); padding-left: 15px; padding-top: 10px;}
+.dskScreen .dskHspltDbCardContent{ margin-top: 5px;}
+.dskScreen .dskHspltDbCardBtm{ margin-top: 5px;}
+.dskScreen .dskHspltDbCardLocation{ color: #095ba8;}
+.dskScreen .dskHspltDbCardLocation img{ display: inline-block; vertical-align: middle; margin-right: 3px; max-width: 15px; max-height: 20px;}
+.dskScreen .dskHspltDbCardBttn{ background-color: #03d0d7; position: relative; padding: 7px 15px; overflow: hidden; display: inline-block; cursor: pointer;}
+.dskScreen .dskHspltDbCardBttn span{ position: relative; z-index: 1;}
+.dskScreen .dskHspltDbCardBttn img{ max-height: 10px; max-width: 18px; display: inline-block; vertical-align: middle; margin-left: 3px;}
+.dskScreen .dskHspltDbCardBttn:before{ position: absolute; top: 50%; transform: translateY(-50%); width: 300px; height: 300px; right: 15px; content: ""; background-color: rgba(0,0,0,0.08);border-radius: 100%; margin-top: 60px;}
+.dskScreen .dskHspltDbCardIn:hover .dskHspltDbCardBttn:before{right: 0; margin-top: 0; border-radius: 0px;}
+
+/*hospital Profile*/
+.dskScreen .dskHspltPrflBnr{ margin-bottom: 50px;}
+.dskScreen .dskHspltPrflBnr > .row{ margin: 0;}
+.dskScreen .dskHspltPrflBnrLft{ padding: 150px 20px 40px; border-radius: 6px 0 0 6px; overflow: hidden; position: relative;}
+.dskScreen .dskHspltPrflBnrLft .object_fit_cover{ position: absolute; top: 0px; left: 0px;}
+.dskScreen .dskHspltPrflBnrLft .overlay{ background-color: rgba(0,0,0,0.35);}
+.dskScreen .dskHspltPrflBnrLft .overlay:before{ position: absolute; bottom: 0px; top: 0px; left: 0px; right: 0px; content: ""; position: absolute; z-index: 1; 
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6895133053221288) 24%, rgba(255,255,255,0) 100%);}
+.dskScreen .dskHspltPrflBnrLftContent{ width: 100%; height: 100%; display: flex; align-items:flex-end; position: relative; z-index: 3; }
+.dskScreen .dskHspltPrflBnrLftContent h2{ margin-bottom: 5px;}
+.dskScreen .dskHspltPrflBnrLftContent h6{ color: #03ccd4; margin-bottom: 15px;}
+
+.dskScreen .dskHspltPrflBnrRght{ padding: 60px 20px; border-radius: 0 6px 6px 0; background-color: #2879f2; position: relative; overflow: hidden;}
+.dskScreen .dskHspltPrflBnrRght:before{ position: absolute; top: 0px; width: 100%; right: -50%; background-color: rgba(0,0,0,0.08); content: ""; height: 100%; transform: skewX(-40deg);}
+.dskScreen .dskHspltPrflBnrRghtIn{ position: relative; z-index: 1;}
+.dskScreen .dskHspltPrflBnrRghtIn h2{ margin-bottom: 20px;}
+.dskScreen .dskHspltPrflBnrRghtIn h2 span{ display: block;}
+.dskScreen .dskHspltPrflBnrRghtIn h6{ margin-top:30px;}
+.dskScreen .dskHspltPrflBnrRghtBtns{ position: relative; padding-right: 50px; position: relative; margin-bottom: 10px;}
+.dskScreen .dskHspltPrflBnrRghtBtns:after{position: absolute; transform: translateY(-50%); right: 10px; top: 50%; width: 50px;background-color: #599cff; content: ""; height: 2px;}
+.dskScreen .dskHspltPrflBnrToolTip{ width: 35px; height: 35px; position: absolute; transform: translateY(-50%); right: 0px; top: 50%; background-color: #599cff; color: #ffffff; border-radius: 100%; text-align: center; display: inline-flex; justify-content: center; align-items: center; cursor: pointer;z-index: 1;}
+.dskScreen .dskHspltPrflBnrRghtBtns_a{ padding: 18px 15px; text-align: center; width: 100%; background-color: #ffffff; box-shadow: 0 2px 10px 0 rgba(0,0,0,0.14); display: block; position: relative; z-index: 1;}
+.dskScreen .dskHspltPrflBnrToolTip:hover{ background-color: #080808; }
+.dskScreen .dskHspltPrflBnrRghtBtns_a img{ display: inline-block; vertical-align: middle; margin-left: 4px; max-width: 18px; max-height: 10px;}
+.dskScreen .dskHspltPrflBnrRghtBtns_a:hover{ background-color: #03d0d7; color: #ffffff;}
+.dskScreen .dskHspltPrflBnrRghtBtns_a:hover img{ filter: brightness(0) invert(1);}
+
+.dskScreen .dskHspltPrflActv{ margin-bottom: 30px;}
+.dskScreen .dskHspltPrflActvTtlArea{ margin-bottom: 15px;}
+.dskScreen .dskHspltPrflActvTtlArea h2{ max-width: calc(100% - 160px); }
+.dskScreen .dskHspltPrflActvTtlArea a{ display: inline-block; float: right;}
+.dskScreen .dskHspltPrflActvTtlArea a img{ max-width: 18px; display: inline-block; vertical-align: middle; margin-left: 3px;}
+
+.dskScreen .dskHspltActivitesUl{ margin: -10px -5px 0;}
+.dskScreen .dskHspltActivitesCard{ padding: 0 5px; margin-top: 10px;}
+.dskScreen .dskHspltActivitesCardIn{ border-width: 1px; border-style: solid; padding:12px 15px;}
+.dskScreen .dskHspltActivitesCardTop{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px;}
+.dskScreen .dskHspltActivitesStts{ margin-left: 15px;}
+.dskScreen .dskHspltActivitesStts:before{ display: inline-block; vertical-align: middle; content: ""; width: 9px; height: 9px; margin-right: 3px; margin-top: -1px;}
+.dskScreen .dskHspltActivitesCondition{ margin-left: 15px; border-width: 1px; padding: 2px 5px; display: inline-block; vertical-align: middle; border-style: solid;}
+.dskScreen .dskHspltActivitesCondition.colorRed{ border-color: #d82650;;}
+.dskScreen .dskHspltActivitesCondition.colorBlue{ border-color: #355ed3;}
+.dskScreen .dskHspltActivitesCondition.colorGreen{ border-color: #38b49b;}
+.dskHspltActivitesAttchd img{ max-width: 16px; max-height: 16px;}
+
+.dskScreen .dskHspltActivitesCardIn h2{ margin-bottom: 4px;}
+.dskScreen .dskHspltActivitesCardIn h3{ margin-bottom: 4px;}
+.dskScreen .dskHspltActivitesCardIn .dskHspltDbCardBttn{  margin-right: 10px; cursor: pointer; display: inline-block;}
+.dskScreen .dskHspltActivitesCardIn .dskHspltDbCardBttn:first-child{ background-color: #1a6fec;}
+.dskScreen .dskHspltActivitesCardIn .dskHspltDbCardBttn:hover:before{right: 0; margin-top: 0; border-radius: 0px;}
+.dskScreen .dskHspltDbCardBttnArea{ margin-top: 12px;}
+.dskScreen  .dskHspltActivitesCardBttm{display: flex; align-items: center; justify-content: space-between; margin-top: 2px;;}
+
+.dskScreen .dskHspltActivitesGreen  .dskHspltActivitesCardIn{border-color: #b1e8c2; background-color: #f1fff6; }
+.dskScreen .dskHspltActivitesGreen  .dskHspltActivitesStts:before{background-color: #3fbe8d; }
+.dskScreen .dskHspltActivitesGreen .dskHspltActivitesStts{color: #3fbe8d; }
+
+.dskScreen .dskHspltActivitesYellow .dskHspltActivitesCardIn{border-color: #dbd79d; background-color: #f3f3e2; }
+.dskScreen .dskHspltActivitesYellow .dskHspltActivitesStts:before{background-color: #cda60b; }
+.dskScreen .dskHspltActivitesYellow .dskHspltActivitesStts{color: #cda60b; }
+
+.dskScreen .dskHspltActivitesRed .dskHspltActivitesCardIn{border-color: #efc0cb; background-color: #fff1f4; }
+.dskScreen .dskHspltActivitesRed .dskHspltActivitesStts:before{background-color: #e03763; }
+.dskScreen .dskHspltActivitesRed .dskHspltActivitesStts{color: #e03763; }
+
+
+.dskScreen .dskHspltActivitesSeaGreen .dskHspltActivitesCardIn{border-color: #a0ecef; background-color: #eafeff; }
+.dskScreen .dskHspltActivitesSeaGreen .dskHspltActivitesStts:before{background-color: #03ccd4; }
+.dskScreen .dskHspltActivitesSeaGreen .dskHspltActivitesStts{color: #03ccd4; }
+.dskScreen .hiospitalProfileCards{ margin-top: 15px; margin-bottom: 15px;}
+.dskScreen .dskHspltPrflBnrInfo span{ display: block;}
+/*hspitalActivities*/
+.dskScreen .dskHspltActvTTlArea{ margin-bottom: 15px;}
+.dskScreen .dskHspltActiveNav li{ display: inline-block; margin: 0 0 0 10px;}
+.dskScreen .dskHspltActiveNav li a{ display: block; padding: 8px 20px; border-radius: 30px; background-color: #ffffff; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.1); color: #080808;}
+.dskScreen .dskHspltActiveNav li a:hover,.dskHspltActiveNav li.active a{ background-color: #1b71f1; color: #ffffff;}
+.dicussRefferDtlsPop .modal-content{ border: none;}
+.dicussRefferDtlsPop  .modal-header{ background-color: #355ed3; border: none;}
+.dicussRefferDtlsPop  .modal-header,.dicussRefferDtlsPop .modal-body{ padding: 0.58rem;}
+.dicussRefferDtlsPop .table-bordered td, .dicussRefferDtlsPop .table-bordered th{ padding: 0.45rem; line-height: 1.4;}
+.dicussRefferDtlsPop .table-bordered td:first-child{ font-weight: 600;}
+.dicussRefferDtlsPop .table{ margin: 0px;}
+.dicussRefferDtlsPopclose{ background-color: #ffffff; width: 30px; height: 30px; display: inline-flex; align-items: center; justify-content: center;}
+.dicussRefferDtlsPopclose img{ max-height: 16px; max-width: 16px; display: inline-block;}
+.dicussRefferDtlsPop .table .dskHspitalFormFileShow h4{ margin-bottom: 10px;}
+
+/*Hospital Form*/
+.dskScreen .dskHspitalFormLeft{ padding: 0 25px 0 0;}
+.dskHspitalFormRight{ padding: 0px;}
+.dskScreen .dskRightActivities{ padding: 0px; background-color: #ffffff; border-radius: 6px; overflow: hidden; box-shadow: 0 0 15px 0 rgba(0,0,0,0.12);}
+.dskScreen .dskRightActivities .dskHspltActivitesCard{ padding: 0px; margin-top: 3px;}
+.dskScreen .dskRightActivitiesBoxArea > .row{ margin: 0px;}
+.dskScreen .dskRightActivities .dskHspltActivitesCard .dskHspltActivitesCardIn{ border: none; border-radius: 0px; padding: 8px;}
+.dskRightActivitiesTtl{ padding:12px 8px; display: flex; align-items: center; justify-content: space-between;}
+.dskHspitalFormLeft_in{border-radius: 6px; overflow: hidden; box-shadow: 0 0 15px 0 rgba(0,0,0,0.12); background-color: #ffffff; }
+.dskHspitalFormTtl{	background-color: #1b71f1; padding: 25px 30px; position: relative; overflow: hidden;}
+.dskHspitalFormTtl:before{ position: absolute; content: ""; background-color: rgba(0,0,0,0.08); width: 600px; height: 600px; top: 10px; right: 70%; border-radius: 100%;}
+.dskHspitalFormTtlIn{ position: relative; z-index: 1;}
+.dskHspitalFormLeft_in .dskHspltCmnTtl{ display: inline-block; margin:0 0 40px 0;}
+.dskHspitalFormArea{ padding:40px  30px;}
+.dskHspitalFormBody form .form-row{ margin: -20px 0 0 -15px;}
+.dskHspitalFormBody .form-group{ padding: 0 0 0 15px; margin: 20px 0 0 0;}
+.dskHspitalFormBody label{ margin-bottom: 6px;}
+.dskHspitalFormBody .form-control{ border:1px solid #dddddd; height: 57px; border-radius: 6px; width: 100%; padding: 0 20px; margin: 0px;}
+.dskHspitalFormBody textarea.form-control{ padding: 20px; resize: none; height: 100px;}
+.dskHspitalFormGndrArea{ height: 57px; display: inline-flex; align-items: center;}
+.dskHspitalFormGndr{position:relative; padding: 0px; display: inline-block; margin-left: 5px;}
+.dskHspitalFormGndr:first-child{ margin-left: 0px;}
+.dskHspitalFormGndr .form-check-label{position:relative;color:#080808; background-color: #f1f1f1;; display:inline-block; cursor:pointer;margin:0; padding: 10px 15px; border-radius: 6px;}
+.dskHspitalFormGndr .form-check-input{opacity:0;position:absolute;margin:0;left:0;top:0;z-index:1;width:100%;height:100%;cursor:pointer}
+.dskHspitalFormGndr .form-check-input:checked+.form-check-label{color:#ffffff; background-color: #03d0d7;}
+.dskHspitalFormGndr .form-check-input:focus+.form-check-label{outline:#ddd solid 0}
+.dskHspitalFormBody select.form-control{ background-image: url(../desktopImages/selectArrow.png); background-position: right 20px center; padding-right: 40px; background-repeat: no-repeat;}
+.dskHspitalFormDbl{ margin-bottom: 20px;}
+.dskHspitalFormDblFile label{ margin-bottom: 0px;}
+.dskHspitalFormDblFile label span.fontItalic{ margin-top: 4px; display: block;}
+.dskHspitalFormDblFile label span.fontItalic a{ color: #1b71f1;}
+.dskHspitalFormDblFile label span.fontItalic a:hover{ color: #23c8cd;}
+.dskHspitalFormDblFile label img{ display: inline-block; vertical-align: middle; margin-left: 4px; filter: brightness(0) ; max-width: 16px; max-height: 7px;}
+.dskHspitalFormDblFile{ display: flex; align-items: center; justify-content: space-between;}
+.dskHspitalFormDblFileIN{  position: relative; display: inline-flex; justify-content: center; align-items: center; border-radius: 6px;}
+.dskHspitalFormDblFileIN .dskHsptlFile{ height: calc(100% - 24px); width: 100%; position: absolute; top: 0px; left: 0px; overflow: hidden; opacity: 0;}
+.dskHspitalFormDblFileIN img{max-height: 24px; max-width: 24px; display: inline-block; vertical-align: middle; margin-right: 6px;}
+
+.dskHspitalFormDblFile .dskHspitalFormDblFileIN{ height: 57px; background-color: #080808; padding: 0 12px; color: #ffffff;}
+.dskHspitalFormDblFile .dskHspitalFormDblFileIN img{ filter: brightness(0) invert(1);}
+
+.dskHspitalFormFileINBig .dskHspitalFormDblFileIN{ background-color: #dee9f9; border: 1px solid #1b71f1; width: 100%; height: calc(100% - 24px); color: #1b71f1;}
+.dskHspitalFormBody .dskHspltDbCardBttn{ border: none; background-color: #1b71f1; height: 57px; padding: 0 20px;}
+.dicussRefferWarningPop .form_row_pop h3{ margin-bottom: 15px;}
+.dskHspitalFormFileShowRow .dskHspitalFormFileShow{ padding: 0 0 0 15px;  margin-top: 20px;}
+.dskHspitalFormFileShow .row{ margin: -5px 0 0 -5px;}
+.dskHspitalFormFileBox{ padding: 0 0 0 5px; margin-top: 5px;}
+.dskHspitalFormFileBoxIn{ height: 100px; background-color: #e2e2e2; position: relative; border-radius: 6px;}
+.dskHspitalFormFileBoxIn img{ position: absolute; max-width: calc(100% - 16px); max-height: calc(100% - 16px); width: auto; height: auto;}
+.dskHspitalFormFileBoxAction{ position: absolute; z-index: 1; width: 30px; height: 30px; border-radius: 6px; cursor: pointer; bottom: 5px; right: 5px;}
+.dskHspitalFormFileBoxAction img{ max-width: 16px; max-height: 16px; filter: brightness(0) invert(1);}
+.dskHspitalFormFileBoxActionView{ background-color: rgba(27, 113, 241, 0.5);}
+.dskHspitalFormFileBoxActionClose{ background-color:rgba(211, 24, 17, 0.5);}
+.dskHspitalFormFileBoxActionView:hover{ background-color: rgba(27, 113, 241, 1);}
+.dskHspitalFormFileBoxActionClose:hover{ background-color:rgba(211, 24, 17, 1);}
+.dskHspitalFormFileBoxActionDonload{ right: 40px; background-color: rgba(24,202,193,0.86);}
+.dskHspitalFormFileBoxActionDonload:hover{ background-color: rgba(24,202,193, 1);}
+.dkHsptlFrmFileTypes{ margin-top: 8px; color: #9a9a9a; }
+.dskHspitalFormReInitiate .dskHspitalFormTtl{ padding-bottom: 50px;}
+.dskHsptlReInitiateSelect{ padding: 0 30px; margin-top: -35px; position: relative; z-index: 3;}
+.dskHsptlReInitiateSelect select.form-control{ background-image: url(../desktopImages/selectArrow.png); background-position: right 20px center; padding:0 40px 0 20px; background-repeat: no-repeat; border: none; height: 70px; width: 100%; background-color: #ffffff; box-shadow: 0 4px 15px 0 rgba(0,0,0,0.15);}
+
+.dskScreen .hsptlConsentGFileMobile{ display: none;}
+.unavailable_p{ display: flex; align-items: center; border-top: 10px solid #1b71f1; background-color: #ffffff; position: relative; padding-bottom: 80px; height: 100vh; overflow: hidden;}
+
+.unavailable_ftr{ position: absolute; bottom: 20px; left: 0px; text-align: center; display: flex; align-items: center; justify-content: center; height: 50px; z-index: 2;}
+.unavailable_ftr img{ max-height: 40px; display: inline-block; max-width: 100%; width: auto; }
+.unavailable_pIn{ position: relative; z-index: 2;}
+.unavailable_pIn img{ max-width: 100%;  max-height: 180px; width: auto; height: auto; margin-bottom: 20px; filter: grayscale(0.7);}
+.unavailable_pBtn{ background-color: #1b71f1; position: relative; padding: 10px 25px; overflow: hidden; display: inline-block; margin-top: 30px;}
+.unavailable_pBtn span{ position: relative; z-index: 1;}
+.unavailable_pBtn img{ max-height: 10px; max-width: 18px; display: inline-block; vertical-align: middle; margin-right: 3px;}
+.unavailable_pBtn:before{ position: absolute; top: 50%; transform: translateY(-50%); width: 300px; height: 300px; right: 15px; content: ""; background-color: rgba(0,0,0,0.08);border-radius: 100%; margin-top: 60px;}
+.unavailable_pBtn:hover:before{right: 0; margin-top: 0; border-radius: 0px;}
+.unavailable_pBtn:hover{ color: #ffffff;}
+.dskHspitalFormBody .dskHspitalThankyouBtns{ padding: 0px;}
+.dskHspitalFormBody .dskHspitalThankyouBtns .dskHspltDbCardBttn{ margin: 0 7px;}
+
+.hlsPlayerVideo{ position: relative; height: auto; }
+.hlsPlayerVideoBtns_area{ position: absolute; bottom: 30px; right: 10px; z-index: 999; background-color: rgba(0,0,0,0.62); padding: 3px 3px 4px; border-radius: 6px;}
+.hlsPlayerVideoBtn{ padding: 4px 10px; border-radius: 6px; margin: 0 2px; display: inline-block;}
+.hlsPlayerVideoBtns_Ttl{ margin-bottom: 4px;}
+.hlsPlayerVideoBtn:last-child{ background-color: #03d0d7; color: #ffffff;}
+.hlsP_videoBox{ background-color: #F2F2F2; position: relative; box-shadow: 0 10px 24px 0 rgba(0,0,0,0.15); overflow: hidden;height: 60vh; margin-bottom: 30px;}
+.hlsPlayerVideo{ width: calc(100% - 320px) !important; height: 100% !important; float: left}
+
+.hls_Pvideo_right{ width: 320px; position: absolute; top: 0; right: 0px;  z-index: 1; background-color: #fff; height: 100%; padding-bottom: 50px; padding-top: 40px;}
+.hls_PvideoFrm{ position: absolute; bottom: 0px; width: 100%; height: 50px; background-color: #fff; box-shadow: 0 -4px 15px 0 rgba(0,0,0,0.15);}
+.hls_PvideoFrmSend{ width: 50px; position: relative; height: 100%; float: right; background-image: url(../desktopImages/send.png); background-repeat: no-repeat; background-position: center; background-size: 18px; background-color: #2f65e0; }
+.hls_PvideoFrmSend:hover{background-color: #34caf5; }
+.hls_PvideoFrmInput{ width: calc(100% - 50px); width: -webkit-calc(100% - 50px); height: 100%; padding: 0 14px; float: left; font-weight: 500;}
+
+
+.hls_PvideoComments{ padding: 10px; height: 100%; padding-right: 4px;  overflow: auto;}
+.hls_PvideoComments .row{ margin: 0; height: 100%;}
+.hls_PvideoCommentBy{ margin-bottom: 4px}
+.hls_PvideoCommentBy span{ display: block; margin-top: 2px;}
+.hls_PvideoCommentsRow p{ line-height: 1.2}
+.hls_PvideoCommentsRow{ padding-left: 10px; margin-bottom: 12px; position: relative;}
+.hls_PvideoCommentsRow:last-child{ margin-bottom: 10px;}
+.hls_PvideoCommentsRow:before{ position: absolute; left: 0px; top: 0px; width: 2px; background-color: #c7c7c7; content: ""; height: 100%;}
+.hls_Pvideo_rightTtl{ position: absolute; top: 0px; height: 40px; width: 100%; display: flex; align-items: center; justify-content: left; z-index: 2; background-color: #ffffff; border-bottom: 1px solid #dadada; padding: 0 12px;}
+
+/*feed details*/
+.dskFeedDtldCmmntTtl{ margin-bottom: 15px ;}
+.dskFeedDtldCmmntMain{ margin-top: 30px;}
+.dskFeedDtlsTtlArea{ margin-bottom: 20px;}
+.dskFeedDtlsTtlArea .mblMedWikiSpeacality{ display: inline-block; margin-bottom: 4px;}
+.dskfeedDtlRow_Pic{ height: 500px; margin-bottom: 20px; overflow: hidden;}
+.dskfeedDtlRow_Pic iframe,.dskfeedDtlRow_Pic > div{ width: 100%; height: 100% !important;}
+.dskfeedDtls_footer{ margin-top: 30px;}
+.dskfeedDtls_footer > .row{ margin: 0px;}
+.dskfeedDtls_footerLeft{ align-items: center; display: inline-flex;}
+.dskScreen .dskfeedDtls_footer .mblMedWikiClient{ margin-top: 4px;}
+.dskfeedDtlBody{ padding: 15px; background-color: #ffffff; margin-bottom: 15px;}
+
+/* CPH */
+.dskCphTtl{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;}
+.dskCphTtl h1{ max-width: calc(100% - 100px);}
+.dskCphTtlShare{ background-color: #34caf5; color: #ffffff; border-radius: 6px; padding: 8px 12px;}
+.dskCphTtlShare img{ display: inline-block; vertical-align: middle; margin-right: 2px; max-width: 20px; max-height: 18px; filter: brightness(0) invert(1);}
+.dskCphTtlShare:hover{ background-color: #1a6fec; color: #ffffff;}
+
+.dskScreen .dskCphLive .dskLeft{ padding: 0px;}
+.dskScreen .dskCphLive .dskGrLeftDescription{ margin-bottom: 20px;}
+.cphFloating_bttn{ position: fixed; bottom: 100px; right: 24px; z-index: 9; width: 60px; height: 50px;    display: flex; align-items: center; justify-content: center; color: #ffffff;}
+/* .cphFloating_bttn:after{position: absolute;  bottom: -8px; right: 7px; content: ""; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 15px solid #1a6fec;
+    transform: rotate(-25deg);} */
+
+	.cphFloating_bttn{ position: fixed; bottom: 100px; right: 24px; z-index: 9; width: 100px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center;}
+.cphFloating_bttn img{ max-width:100%; max-height:100%; width:auto; height:auto;}
+/* .cphFloating_bttn:after{position: absolute;  bottom: -8px; right: 7px; content: ""; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 15px solid #1a6fec;
+    transform: rotate(-25deg);} */
+
+
+.dskGrMstrDocBoxShare:nth-child(1),.dskGrMstrDocBoxShare:nth-child(2),.dskGrMstrDocBoxShare:nth-child(3),.dskGrMstrDocBoxShare:nth-child(4),.dskGrMstrDocBoxShare:nth-child(5),.dskGrMstrDocBoxShare:nth-child(6),.dskGrMstrDocBoxShare:nth-child(7){
+		display: block;
+}
+.dskGrMstrDocBoxShare:nth-child(500) .dskGrMstrDocBoxIn:before{ display: none;}
+.dskGrMstrDocBoxShare:nth-child(500) .dskGrMstrDocBoxInPic .overlay{ background-color: rgba(0,0,0,0.8);}
+
+/*share page gr*/
+.dskAsst_grDocMain{ margin-top: 10px;}
+.dskAsst_grDocTtl{ position: relative; padding-bottom: 10px; margin-bottom: 20px;}
+.dskAsst_grDocTtl:after{ position:absolute; bottom: 0px; left: 0px; content: ""; width: 40px; height: 2px; background-color: #1b71f1;}
+.dskAsst_grDocArea .row{ margin: 0 0 0 -15px; margin-top: -15px;}
+.dskAsst_grDocBox{ padding: 0 0 0 15px; margin-top: 15px; text-align: center;}
+.dskAsst_grDocBoxIn{ background-color: #f3f3f3; padding:30px 15px; border-radius: 6px; height: 100%;}
+.dskAsst_grDocBoxInPic{ width: 110px; height: 110px; overflow: hidden; margin-bottom: 15px; display: inline-block;}
+.dskAsst_grDocBoxIn h5{ margin-top: 5px; margin-bottom: 8px;}
+.dskAsst_grDocLogo{ margin-bottom: 30px;}
+.dskAsst_grDocLogoIn{ display: inline-block; padding: 8px; background-color: #ffffff; border-radius: 6px;}
+.dskAsst_grDocLogoIn img{ max-width: 160px; max-height: 50px;height: auto; width: auto;}
+.sharepageClirnetLogo img{ max-height: 40px; max-width: 180px; display: inline-block; filter: brightness(0) invert(1); width: auto; height: auto;}
+.sharepageClirnetLogo span{ display: block; margin-bottom: 5px;}
+
+
+.dskCphTtlExtra{  display: block;
+/* display: flex; 
+margin-left: auto;
+margin-right: auto;
+justify-content: center; */
+}
+
+.feedRow_ans img{ max-width: 100%; height: auto !important;}

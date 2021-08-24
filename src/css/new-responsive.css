@@ -1,0 +1,114 @@
+
+@media screen and (max-width:1460px) {
+	.dskScreen .dskNav{ padding: 0 2%;}
+    .dskScreen .dskNav .navbar-brand{ margin-right: 3%;}
+    .dskGrLeftVideo{ height: 450px;}
+    .dskScreen .mblMedWikiClient .dskSessionClientItem img{ max-height: 30px;}
+    .dskGrMstrDocRow{ margin-left: -5px;}
+    .dskGrMstrDocBox{ padding-left: 5px;}
+    .dskGrMstrDocBoxInPic{ width: 50px; height: 50px;}
+    .dskScreen .dskGrDtlsClient .dskSessionClientItem img{ height: 34px; max-width: 100%;}
+    .dskGrDtlsSponserdTtl.font_14px{ font-size: 12px;}
+    .dskGrDtlsAttachedBoxIn{ height: 66px;}
+
+    .dskScreen .dskTrendingMedwikiCard .mblMedWikiContentTtl{ font-size: 12px;}
+
+    .dskScreen .dskHspltDbSliderPic-2{ width: 200px; height: 180px;}
+    .dskScreen .dskHspltDbSliderPic-1{ width: 200px; }
+    .dskScreen .dskHspltDbSliderBoxInRight {  width: calc(100% - 200px);  padding-left: 25px;  padding-top: 5px;}
+    .dskScreen .dskHspltDbSliderBoxInRight h2{ font-size: 24px;}
+    .dskScreen .dskHspltDbSliderBoxInRight .font_16px,.dskHspltDbSliderBoxInRight.font_16px{ font-size: 14px;}
+    .dskScreen .dskHspltDbCardPic{ width: 90px; height: 90px;}
+    .dskScreen .dskHspltDbCardRight { width: calc(100% - 90px); padding-top: 0px;}
+    .dskScreen .dskHspltPrflBnrRght{ padding: 30px 15px;}
+    .dskScreen .dskHspltPrflBnrRghtBtns_a{ padding: 14px;}
+    .dskHspitalFormArea{ padding: 30px 15px;}
+    .dskScreen .dskHspitalFormLeft{ padding-right: 10px;}
+    .dskHspitalFormRight{ padding-left: 10px;}
+
+    /* .bannerVideoRightPrnt{ height: 198px;} */
+}
+@media screen and (max-width:1229px) {
+    .dskScreen .dskNav{ padding: 0 10px;}
+	.dskScreen .dskNav .navbar-brand img{ max-height: 32px;}
+    .dskScreen .dskNav .navbar-brand img{ font-size: 12px;}
+    .dskScreen .dskNavRight .nav-link.dskNavProfile{ height: 48px; width: 48px; margin-right: 0px;}
+    .dskScreen .dskNavRight .nav-link{ width: 36px; height: 36px;margin-left: 8px;}
+    .dskScreen .dskNavRight .nav-link img.translate_both{ max-height: 22px; max-width: 22px;}
+    .dskScreen .dskNav,.dskHeader .dskNavMenu .nav-link{ height: 66px; font-size: 13px;}
+    .dskScreen{ padding-top: 110px;}
+    .dskGrLeftVideo{ height: 400px;}
+    .dskCommentsAreaPic{ width: 74px; height: 74px;}
+    .dskCommentsContent { width: calc(100% - 74px);  padding-left: 15px;  padding-top: 0;}
+    .dskCommentsContent p{ padding-bottom: 5px;}
+    .dskCommentsAreaRow{ padding: 6px;}
+    .dskScreen .dskPollsCard .srvPollsRadio .form-check-label{ padding: 10px 0;}
+    .dskBody >.row{ margin: 0px;}
+    .dskGrDtlsMasterDoc{ padding: 5px;}
+    .dskGrDtlsSponserd{ display: block; padding: 6px;}
+    .dskGrDtlsSponserdTtl{ margin-bottom: 8px;}
+    .dskGrDtlsAttached{ padding: 6px;}
+    .dskScreen .dskGrDtlsClient .dskSessionClientItem img{ float: left;}
+    .dskScreen .dskGrDtlsClient{ width: 100%;}
+    .dskGrDtlsAttachedBoxIn{ height: 55px;}
+
+    .dskScreen .dskLeft{ padding-right: 10px;}
+
+    .dskScreen .dskTrendingMedwikiIn .mblMedWikiPic { width: 62px;  height: 80px; padding: 3px 3px 3px 0;}
+    .dskScreen .dskTrendingMedwikiIn .mblMedWikiContent {  padding: 0 6px; width: calc(100% - 62px);}
+    .dskScreen .dskgrCardBtmIn{ padding: 10px 6px;}
+    .dskScreen .dskgrCardBtm{ padding: 0 6px;}
+    .dskScreen .mblSessionbtm_a{ padding: 7px 10px;}
+
+    .dskScreen .dskMasonryCard .mblSessionTop .row{ flex-direction: column-reverse;}
+    .dskScreen .dskMasonryCard .mblSessionTop .mblSessionType{ width: 100%; margin-top: 5px;}
+    .dskScreen .dskMasonryCard .mblSessionTop .mblSessionTopRight{ width: 100%;}
+
+    .dskScreen .dskHspltDbSliderPic-2{ width: 150px; height: 130px;}
+    .dskScreen .dskHspltDbSliderPic-1{ width: 150px;}
+    .dskScreen .dskHspltDbSliderBox{ padding: 15px;}
+    .dskScreen .dskHspltDbSliderBoxInRight { width: calc(100% - 150px); padding-left: 15px; padding-top: 0px;}
+    .dskScreen .dskHspltDbSliderBoxInRight h2{ font-size: 20px;}
+    .dskScreen .dskHspltDbSliderBoxInRight .font_16px, .dskHspltDbSliderBoxInRight.font_16px{ font-size: 13px;}
+    .dskScreen .dskHspltDbSliderBoxInRight .dskHspltDbCardBttn {  margin-top: 6px; padding: 7px 12px;}
+    .dskScreen .dskHspltDbActivities{ padding: 10px;}
+    .dskScreen .dskHspltDbActivitiRow{margin: -6px 0 0 -6px;}
+    .dskScreen .dskHspltDbActivitiBx { padding: 0 0 0 6px; margin-top: 6px; }
+    .dskScreen .dskHspltDbActivitiBxIn{ padding: 6px 8px;}
+    .dskScreen .dskHspltDbActivitiesBtn a{ padding: 5px 10px;}
+    .dskScreen .dskHspltDbActivitiBxCnt .font_16px{ font-size: 14px;}
+    .dskScreen .dskHspltDbActivitiBxArrow{ width: 30px; height: 30px;}
+    .dskScreen .dskHspltDbActivitiBxArrow img{ max-width: 14px;}
+    .dskScreen .dskHspltDbActivitiesBtn{ margin-bottom: 6px;}
+    .dskScreen .dskHspltDbTop{ margin-bottom: 30px;}
+    .hiospitalProfile .mycontainer > .row{ margin: 0px;}
+    .dskHspltPrflBnrLftContent .font_30px{ font-size: 24px;}
+    .dskScreen .dskHspltActivitesCard{ padding: 0 2px; margin-top: 4px;}
+    .dskScreen .dskHspltActivitesUl{ margin: -4px -2px 0;}
+    .dskScreen .dskHspltActivitesCardIn{ padding: 8px;}
+    .dskScreen .dskHspltActivitesStts{ display: inline-block;}
+    .dskScreen .dskHspltActivitesTopRight{ font-size: 12px;}
+    .dskScreen .dskHspltActivitesCardIn .font_16px{ font-size: 14px;}
+    .dskScreen .dskHspltActivitesCardIn .font_18px{ font-size: 16px;}
+    .dskScreen .dskHspitalFormLeft{ padding-right: 0px; margin-bottom: 20px;}
+    .dskScreen .dskHspitalFormRight{ padding-left: 0px;}
+
+    .cphFloating_bttn{ bottom: 100px; right: 12px; width: 54px; height: 40px; border-radius: 50%; }
+    /* .bannerVideoRightPrnt{ height: 164px;} */
+}
+@media screen and (max-width:991px) {
+    
+
+    .dskGr .dskLeft{ padding-right: 0;}
+
+}
+@media screen and (max-width:767px) {
+
+	
+}
+
+
+@media screen and (max-width:479px) {
+
+
+} 

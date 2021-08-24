@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <meta name="theme-color" content="#000000" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:title" content="CLIRNET" />
+    <meta property="og:description" content="CLIRNET is India’s largest live digital CME and doctor generated content platform!" />  
+    <meta property="og:url" content="https://doctor.clirnet.com/services/#/" />
+    <meta property="fb:app_id" content="632055220462318" />  
+    <meta property="og:type" content="website" /> 
+    <meta property="og:site_name" content="https://doctor.clirnet.com/services/#/" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://doctor.clirnet.com/services/#/" /> 
+    <meta property="twitter:site" content="https://doctor.clirnet.com/services/#/" />
+    <meta property="twitter:title" content="CLIRNET" /> 
+    <meta property="twitter:description" content="CLIRNet is a unique platform connecting doctors." />
+    <meta property="og:image" content="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg" />
+    <meta property="og:image:url" content="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg" />
+    <meta property="og:image:secure_url" content="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg" />
+    <meta content="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg" />
+    <!-- {/* <meta property="og:image:type" content="image/jpg" /> */} --> 
+    <meta property="twitter:image" content="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg" />
+
+    <script src="https://source.zoom.us/1.7.7/lib/vendor/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CYP74BM1LV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-CYP74BM1LV');
+    </script>
+    <!-- Global site tag (gtag.js) - Google AdWords: 123456789 -->
+
+    <link rel="apple-touch-icon" href="logo192.png" />
+   
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+   
+    <title>Clirnet Index</title> 
+    
+  </head>
+  <body >  
+   
+    <link itemprop="thumbnailUrl" href="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg"/> 
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject"> 
+      <link itemprop="url" href="https://developer.clirnet.com/sumit/clirnetAssets/clirnet_logo.jpg"/>
+    </span>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+   
+  </body>
+
+  <script>
+    var x =0;
+    var timer = setInterval(function(){
+      if(window.location.href.indexOf('#/Registrationparttwo')!=-1){
+        if(x==0){
+
+         // alert();
+          gtag('event','submit',{'event_category':'form','event_label':'register'})
+          x=1;
+        }
+        clearInterval(timer);
+      }
+    })
+  </script>
+</html>

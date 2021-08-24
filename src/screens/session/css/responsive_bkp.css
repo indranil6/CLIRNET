@@ -1,0 +1,111 @@
+@media screen and (max-width:1681px){
+	/*home page=================*/
+	body{ font-size:13px;}
+	
+	
+	}
+
+
+@media screen and (max-width:1199px){
+	/*home page=================*/
+	body{ font-size:13px;}
+	.font_10px{font-size:8px}
+	.font_12px{font-size:11px}
+	.font_14px{font-size:13px}
+	.font_16px{font-size:14px}
+	.font_18px{font-size:16px}
+	.font_20px{font-size:18px}
+	.font_22px{font-size:18px}
+	.font_24px{font-size:22px}
+	.font_30px{font-size:24px}
+	.font_36px{font-size:30px}
+	.font_48px{font-size:36px}
+	.font_60px{font-size:48px}
+	.font_72px{font-size:60px}
+	
+	/*video Page*/
+
+.onWebinerHeaderLogo, .onWebinerHeaderLogoLeft{ height:56px; width: 160px; padding: 8px;}
+.onWebinerHeaderLogo::before {  border-bottom: 28px solid transparent;  border-right: 20px solid #fff; border-top: 28px solid transparent; left: -20px;}
+.onWebinerBanner{ padding-top: 80px;}
+.onWebinerBanner .add_area_top{ margin-top: 10px; margin-bottom: 10px;}
+	.p_videoBoxPlay { width: calc(100% - 330px); width: -webkit-calc(100% - 330px);}
+	.livevideo_right{width: 330px}
+	.live_videoBox{ height: 55vh;}
+	.videoCommentsTab{ padding-top: 75px;}
+	.liveSsnDocBox{ padding-left: 20px;}
+	.liveSsnDocSlider .slick-track{ margin-left: -20px;}
+	
+	
+	
+}
+@media screen and (max-width:991px){
+	/*home page=================*/
+	body{ font-size:12px;}
+	.font_12px{font-size:11px}
+	.font_14px{font-size:12px}
+	.font_16px{font-size:14px}
+	.font_18px{font-size:14px}
+	.font_20px{font-size:16px}
+	.font_22px{font-size:16px}
+	.font_24px{font-size:20px}
+	.font_30px{font-size:22px}
+	.font_36px{font-size:24px}
+	.font_48px{font-size:30px}
+	.font_60px{font-size:36px}
+	.font_72px{font-size:48px}
+	
+	.live_videoBox{ height: auto; background-color: transparent; box-shadow: none; overflow: visible;}
+	.p_videoBoxPlay{ width: 100%; height: 45vh; background-color: #222222;}
+	.livevideo_right{ padding: 0px;  width: 100%; position: relative; margin-top: 20px; float: left; background-color: transparent;}
+	.video_rightIn{ background-color: transparent;}
+	
+	.videoTab_ttl{ background-color: #222222; border: none; color: #ffffff;}
+	.videoTab_ttl h2{ color: #ffffff;}
+	.onWebinerBanner{ margin-bottom: 30px;}
+	.onWebinerBannerIn{ height: 50vh;}
+	.videoCommentsTab{ border-radius: 5px; overflow: hidden; box-shadow: 0 0 10px 0 rgba(0,0,0,0.12); height: 60vh;width:100%; background-color: #ffffff;}
+	
+.liveSsnDocBoxIn{ text-align: center;}
+	.liveSsnDocPic{ display: inline-block;}
+	
+	
+	}
+	
+@media screen and (max-width:767px){
+	.row{ margin:0px;}
+	.font_10px{font-size:8px}
+	.font_12px{font-size:11px}
+	.font_14px{font-size:12px}
+	.font_16px{font-size:13px}
+	.font_18px{font-size:14px}
+	.font_20px{font-size:14px}
+	.font_22px{font-size:16px}
+	.font_24px{font-size:18px}
+	.font_30px{font-size:18px}
+	.font_36px{font-size:20px}
+	.font_48px{font-size:24px}
+	.font_60px{font-size:30px}
+	.font_72px{font-size:36px}
+	
+	
+	
+	.onWebinerHeaderLogo, .onWebinerHeaderLogoLeft{ width: 120px; padding: 5px; height: 50px;}
+	.onWebinerHeaderLogo:before { left: -15px;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+		border-right: 15px solid #ffffff;}
+	
+	
+	
+	.p_videoExit{ padding: 8px 15px;}
+	.videoCommentsTab{ height: 80vh; }
+	.liveSsnFttr{ padding: 20px 0;}
+
+}
+@media screen and (max-width:479px){
+	
+	.p_videoBoxPlay{ height: 210px;}
+	.onWebinerBannerIn{ height: 240px;}
+	
+}

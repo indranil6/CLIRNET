@@ -1,0 +1,14 @@
+ .waiting_room{
+	
+    width: 100%;
+	background: rgb(0,57,142);
+background: linear-gradient(31deg, rgba(0,57,142,1) 0%, rgba(23,230,213,1) 100%);
+}
+.waiting_room_row{ min-height: 100vh; margin: 0px; padding: 40px 0;} 
+.waitingTimer{ margin-bottom: 20px;}
+.waitingTimer #timer{ display: inline-flex; font-weight: 500;}
+.waitingTimer #timer span{ font-weight: 500; color: #ffffff;}
+.waitingTimer #timer > div{ background-color: rgba(255,255,255,0.2); border-radius: 5px; margin: 2px; padding: 5px 15px 15px; min-width: 110px;}
+.waitingTimerCount{ margin-top: 15px;}
+
+.waiting_room .adsArea{ margin-top: 40px;}

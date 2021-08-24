@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.mblScreen .mycontainer > .row{ margin: 0px;}
+.mblScreen .dskGrMstrDocProfile{ width: 180px; height: 140px;}
+.mblScreen .dskGrMstrDocProfileTxt{ padding: 8px; }
+.mblScreen .dskGrMstrDocBox:nth-child(4) .dskGrMstrDocProfile{ left: auto; right: 0px;}
+
+.mblScreen{font-family: 'Poppins', sans-serif; color: #3b3b3b;}
+.mblScreen p, .mblScreen img, .mblScreen input, .mblScreen textarea, .mblScreen span, .mblScreen form, .mblScreen select, .mblScreen h1, .mblScreen h2, .mblScreen h3, .mblScreen h4, .mblScreen h5, .mblScreen h6{ line-height: 1.3;}
+.mblScreen .fontExo{font-family: 'Exo', sans-serif;}
+.mblScreen .colorGrey{ color:#3b3b3b;}
+.mblScreen,.dskScreen.mblScreen{ padding-top: 120px; padding-bottom: 95px;}
+.mblScreen .container.mycontainer{ width: 100%; float: left; max-width: 100%; margin: 0;;}
+.mblScreen  .dskGrListPage > .row{ margin: 0px !important;}
+.mblScreen  .dskGr .mycontainer > .row{ margin: 0px !important;}
+.mblScreen  .dskGrListPage .mblRecent{padding: 0px;}
+
+.mblSharePop .st-inline-share-buttons .st-btn{	padding:0 10px !important; height: 35px !important; margin-right:6px !important; display: inline-block !important;}
+.mblSharePop .st-inline-share-buttons .st-btn > img{ max-width: 16px !important; max-height: 16px !important; top: 8px !important;}
+
+.mblSharePop .modal-content{ border: none;}
+.mblSharePop .popClose{ width: 24px; height: 24px; background-color: #e03763; position: relative;}
+.mblSharePop .popClose img{ max-width: 12px; max-height: 12px; position:absolute; filter:brightness(0) invert(1);}
+.mblSharePop .popClose:hover{ background-color: #dcdcdc;}
+.mblSharePop .popClose:hover img{ filter: invert(0) brightness(1);}
+.pointercursorcss{cursor:pointer;}
+/*===========---------Dots Menu popover*/
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon{ display: block; position: relative; padding-left: 25px; margin-bottom: 6px; color: #080808;}
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon span{ width: 18px; height: 18px; position:absolute;left: 0px; transform: translateY(-50%);  top: 50%;}
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon img{ position: absolute; max-height: 100%; max-width: 100%; transform: translate(-50%,-50%); left: 50%; top: 50%;}
+
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon img.mblGrLeftShareImg,.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon.active img.mblGrLeftShareImgActive{ opacity: 1;}
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon img.mblGrLeftShareImgActive,.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon.active img.mblGrLeftShareImg{ opacity: 0;}
+.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon.active,.mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon:hover{ color: #34caf5;}
+.mblScreen .mblDotsMenuSettings .st-inline-share-buttons{ margin-top: 15px;}
+.mblScreen .mblDotsMenuSettings .st-inline-share-buttons .st-btn{	padding:0 5px !important; height: 25px !important; margin-right:3px !important;display: inline-block !important;}
+.mblScreen .mblDotsMenuSettings .st-inline-share-buttons .st-btn > img{ max-width: 12px !important; max-height: 12px !important; top: 6px !important;}
+.mblScreen .mblDotsMenuSettings .popover-body{ padding: 8px;}
+.mblScreen .mblDotsMenuSettings{ border: none; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); z-index: 5; left: auto; right: 100%; top: 0; min-width: 140px;}
+.mblScreen .mblDotsMenuNotRelevant{ margin-top: 10px; text-align: left; border-top: 1px solid #eaeaea; display: block; padding-top: 6px; color: #080808;}
+.mblScreen .mblDotsMenuNotRelevant:hover{color: #34caf5;}
+
+
+/*=============================----------- Ads*/
+.mblScreen  .adsArea{ margin-bottom: 15px; padding:0 2%;}
+.mblScreen .adsFrame{ margin: 0px auto;}
+.mblScreen .adsFrame img{ width: auto; height: auto; max-width: 100%;}
+/*=============================----------- CARD DOTS MENU*/
+.mblScreen .mblDotsMenu{ position: relative; width: 23px; height: 23px; }
+.mblScreen .mblDotsMenu span.mblDotsMenu-dots{ border: 1px solid #ffffff; background-color: transparent; width: 6px; height: 6px; position:absolute; right: 0; border-radius: 50%;}
+.mblScreen .mblDotsMenu span.mblDotsMenu-dots:nth-child(1){ top: 0px; }
+.mblScreen .mblDotsMenu span.mblDotsMenu-dots:nth-child(3){ bottom: 0px; }
+.mblScreen .mblDotsMenu span.mblDotsMenu-dots:nth-child(2){ top: 50%; transform: translateY(-50%);}
+
+.mblScreen .mblDotsMenu.mblDotsCircle{ background-color: rgba(0,0,0,0.3); border-radius: 4px; width: 34px; height: 34px;}
+.mblScreen .mblDotsMenu.mblDotsCircle span.mblDotsMenu-dots{ left: 50%; transform: translateX(-50%);}
+.mblScreen .mblDotsMenu.mblDotsCircle span.mblDotsMenu-dots:nth-child(2){ transform: translate(-50%,-50%);}
+.mblScreen .mblDotsMenu.mblDotsCircle span.mblDotsMenu-dots:nth-child(1){ top: 5px; }
+.mblScreen .mblDotsMenu.mblDotsCircle span.mblDotsMenu-dots:nth-child(3){ bottom: 5px; }
+/*=============================----------- clientLogo*/
+.mblScreen .mblSessionClient{ width: 180px;}
+.mblScreen .mblSessionClientItem img{ max-width: 100%; height: 34px; float: right;}
+
+.modal-backdrop{ z-index: 99992 !important;}
+.modal{ z-index: 99993 !important;}
+/*=============================----------- Header*/
+.mblHeader.navbar{ background-color: #ffffff; border-radius: 0 0 8px 8px; box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2); padding: 0px; z-index: 99991;}
+.mblNav{background-color: #0d3aa0; padding: 6px 3%;border-radius: 0 0 20px 20px; height: 70px;}
+.mblNav > .row{margin: 0px; height: 100%;}
+.mblNavLeftTtl{ line-height: normal !important;}
+.mblNavRight ul{ float: right; text-align: right; display: flex;}
+.mblNavRight ul li { display: inline-block; margin-left: 10px;}
+.mblNavRight ul li a{ background-color: rgba(255, 255, 255, 0.12); position: relative; width: 44px; height: 44px; display: block;}
+.mblNavRight ul li a .translate_both{ position: absolute;}
+.mblNavRight ul li a img.translate_both{ max-height: 24px; max-width: 24px; position: absolute;}
+.mblNavRight ul li.mblNavProfile a{ width: 58px; height: 58px; padding: 4px;}
+.mblScreen .mblMarquee{ white-space: nowrap; width: 92%; background-color: transparent; margin: 0px auto; height: 34px; line-height: 34px;}
+.mblScreen .mblMarquee .overlay{ display: none;}
+.mblScreen .mblMarquee span{line-height: 34px !important;}
+
+/*=============================----------- bottom Nav*/
+.mblScreen .mblBtmNavArea{ background-color: #ffffff; box-shadow: 0 -10px 25px 0 rgba(0,0,0,0.16); padding: 0px; height: 80px;}
+.mblScreen .mblBtmNav{ margin: 0px; height: 100%; width: 100%;}
+.mblScreen .mblBtmNav li{ padding: 0px;}
+.mblScreen .mblBtmNav li a{ display: block; width: 100%; height: 100%; position: relative; padding: 8.5px 2%; color: #080808; }
+.mblScreen .mblBtmNav li a span{ width: 100%; height: 36px; display: block; position: relative; margin-bottom: 3px;}
+.mblScreen .mblBtmNav li a span img{ position: absolute; max-height: 100%; max-width: 36px;}
+.mblScreen .mblBtmNav li a .mblBtmIconActive{ opacity: 0;}
+.mblScreen .mblBtmNav li a.active{ color: #2f65e0;}
+.mblScreen .mblBtmNav li a.active .mblBtmIcon{ opacity: 0;}
+.mblScreen .mblBtmNav li a.active .mblBtmIconActive{ opacity: 1;}
+
+/*=============================----------- mblAnnouncment*/
+.mblScreen .mblAnnouncment{ padding: 0 2%; margin-bottom: 15px; margin-top: 10px;}
+.mblScreen .mblAnnouncmentCont{ background-color: #ffffff; padding: 30px; box-shadow: 0 0 15px 0 rgba(0,0,0,0.13); position: relative; overflow: hidden;}
+.mblScreen .mblAnnouncmentBg{ position:absolute; width: auto; width: auto; height: calc(100% + 20px); right: 10%;}
+.mblScreen .mblAnnouncmentTtl{ margin-bottom: 4px;}
+.mblScreen .mblAnnouncmentIn{ position: relative;}
+.mblScreen .mblAnnouncmentIcon{ position: absolute; width: 50px; height: 50px; top: -10px; left: -10px; z-index: 1; background-color: #ffffff; }
+.mblScreen .mblAnnouncmentIcon img{ position: absolute; max-width: 28px; max-height: 28px;}
+.mblScreen .mblAnnouncmentClose{ position: absolute; top: -10px; right: -10px; width: 50px; height: 50px; background-color: rgba(214,47,86,0.22);}
+.mblScreen .mblAnnouncmentClose img{ position: absolute; margin-top: 2px; margin-left: -2px; max-width: 16px; max-height: 16px;}
+/*=============================----------- doctor voice*/
+.mblScreen .mblDoctorVoice{ background-color: #0aaba9; overflow: hidden;  position: relative; padding: 80px 2% 15px;}
+.mblScreen .mblDoctorVoice .overlay{ background-color: rgba(0,0,0,0.3);}
+.mblScreen .mblDoctorVoiceGraph2,.mblScreen .mblDoctorVoiceGraph3{ position: absolute; bottom: 0px; width: auto; max-width: 50%; height: auto; max-height: calc(100% + 10px);}
+.mblScreen .mblDoctorVoiceGraph2{ left: 0px;}
+.mblScreen .mblDoctorVoiceGraph3{ right: 0px;}
+.mblScreen .mblDoctorVoiceGraph1{ position:absolute; top: 0px; z-index: 3; left: 0px; width: auto; height: 65px;}
+.mblScreen .mblDoctorVoiceArea{  margin-bottom: 15px;}
+.mblScreen .mblDoctorVoiceContent{ position:relative; z-index: 3;}
+.mblScreen .mblDoctorVoiceAnsRadio{margin-top: 8px; padding: 0px; width: 100%; float: left;}
+.mblScreen .mblDoctorVoiceAns{ margin-top: 5px;}
+.mblScreen .mblDoctorVoiceAnsRadio .form-check-label{position:relative;color:#282828;padding:15px 2%;  display: block; cursor:pointer;margin:0;background-color: #f0fdfe;
+	 text-align: center;transition: all 0.4s ease-in-out; -webkit-transition: all 0.4s ease-in-out; -ms-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; border-radius: 6px;}
+.mblScreen .mblDoctorVoiceAnsRadio .form-check-input{opacity:0;position:absolute;margin:0;left:0;top:0;z-index:1;width:100%;height:100%;cursor:pointer}
+.mblScreen .mblDoctorVoiceAnsRadio .form-check-input:checked+.form-check-label{ background-color: #0eced0; color: #ffffff !important;}
+.mblScreen .mblDoctorVoiceAnsRadio.correct .form-check-input:checked+.form-check-label,.mblScreen .mblDoctorVoiceAnsRadio.correct .form-check-label{ background-color: #0dd591; color: #ffffff !important;}
+.mblScreen .mblDoctorVoiceAnsRadio.incorrect .form-check-input:checked+.form-check-label,.mblScreen .mblDoctorVoiceAnsRadio.incorrect .form-check-label{ background-color: #e03763; color: #ffffff !important;}
+/* .mblScreen .mblDoctorVoiceAnsRadio:nth-child(even){ float: right;} */
+
+.mblScreen .mblDoctorVoiceSlide .slick-list{ padding-left:0 !important;}
+.mblScreen .mblDoctorVoiceCard{ padding: 0 0 0 2%; }
+
+/*=============================----------- mblSession*/
+.mblScreen .mblSession{margin-bottom: 15px;}
+.mblScreen .mblSessionCard_link{ overflow: hidden; background-color: #ffffff;}
+.mblScreen .mblSessionTopArea{ position: relative; overflow: hidden; padding: 15px 2% 66px;}
+.mblScreen .ssnTopBgGraphic{ position: absolute; top: 0px; left: 0px;}
+.mblScreen .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.25);}
+.mblScreen .mblSessionTopIn{ position: relative; z-index: 2;}
+.mblScreen .mblSessionTop .row{ margin: 0px;}
+.mblScreen .mblSessionTop{ margin-bottom: 20px;}
+.mblScreen .mblSessionType{ display: flex; align-items: center;}
+.mblScreen .mblSessionTypeIcon{ width: 30px; height: 30px; position: relative; background-color: rgba(0,0,0,0.32); display: inline-block; margin-right: 5px; }
+.mblScreen .mblSessionTypeIcon img{ position: absolute; max-height: 16px; max-width: 16px;}
+.mblScreen .mblSessionTopRight{ display: inline-flex; justify-content: space-between; align-items: center; }
+.mblScreen .mblDotsMenuSssnCard{ margin-left: 5px;}
+.mblScreen .mblSessionBttmArea{ margin-top: -50px; padding: 0 2% 15px; position: relative; z-index: 3;}
+.mblScreen .mblSessionDocRow{ padding: 12px 2%; box-shadow: 0 3px 10px 0 rgba(0,0,0,0.14); background-color: #ffffff; margin-bottom: 10px;}
+.mblScreen .mblSessionDocRow .row{ margin: 0px;}
+.mblScreen .mblSessionDocPic{ width: 80px; height: 80px; overflow: hidden; background-color: #cccccc;}
+.mblScreen .mblSessionDocTtl{ width: calc(100% - 80px); padding-left: 2%;}
+.mblScreen .mblSessionbtm_a span{ position: relative; z-index: 2;}
+.mblScreen .mblSessionbtm_a{ padding: 10px 18px; position: relative; overflow: hidden;}
+.mblScreen .mblSessionbtm_a:before{ position:absolute; top: 0px; left: 0px; width: 100%; height: 100%; content: ""; background-color: rgba(0,0,0,0.3);}
+.mblScreen .mblSessionbtm{ display: flex; align-items: center; justify-content: space-between; margin-top: 10px;}
+.mblScreen .mblSessionLive{ position: relative; padding-left: 22px;}
+.mblScreen .liveAni{content:""; display:block; position:absolute; top:50%; left:0; transform:translate(0,-50%); width:8px; height:8px; border-radius:100%; z-index:2; }
+.mblScreen .liveAni .aniBx{ display:block; position: absolute; width: 26px; height: 26px; z-index: -1; left: 50%; top: 50%; opacity: 0; margin: -13px 0 0 -13px;  border-radius: 100%;  -webkit-animation: blinking 1.8s infinite;
+    animation: blinking 1.8s infinite;}
+.mblScreen .liveAni .aniBx,
+.mblScreen .liveAni{ background-color:#ffffff;}
+.mblScreen .liveAni .aniBx:first-child{-webkit-animation:blinking 1.8s infinite; animation:blinking 1.8s infinite;}
+.mblScreen .liveAni .aniBx:nth-child(2){animation-delay:.3s; -webkit-animation-delay:.3s;}
+.mblScreen .liveAni .aniBx:nth-child(3){animation-delay:.6s; -webkit-animation-delay:.6s;}
+@-webkit-keyframes blinking{
+	0%{opacity:1;-webkit-transform:scale(0);transform:scale(0)}
+	100%{opacity:0;-webkit-transform:scale(1);transform:scale(1)}
+}
+@keyframes blinking{
+	0%{opacity:1;-webkit-transform:scale(0);transform:scale(0)}
+	100%{opacity:0;-webkit-transform:scale(1);transform:scale(1)}
+}
+.mblScreen .mblSessionSlider .slick-list{ padding-left:0 !important;}
+.mblScreen .mblSessionCard{ padding: 0 0 0 2%; }
+
+
+/*=============================----------- Medwiki*/
+.mblScreen .mblMedWiki{ margin-bottom: 15px;}
+.mblScreen .mblMedWikiTtl{ padding: 0 2%; margin-bottom: 8px;}
+.mblScreen .mblMedWikiCard_link{ background-color: #ffffff; padding: 10px 0;}
+.mblScreen .mblMedWikiCard_link > .row{ margin: 0px;}
+.mblScreen .mblMedWikiPic{ width: 130px; height: 150px; padding: 6px 6px 6px 0; position: relative;}
+.mblScreen .mblMedWikiPicGraphic{ height: 100%; width: 50%; position: absolute; right: 0px; top: 0px;}
+.mblScreen .mblMedWikiPicIn{ width: 100%; height: 100%; overflow: hidden; border-radius: 0 6px 6px 0; position: relative; z-index: 1;}
+.mblScreen .mblMedWikiContent{ padding: 6px 2% 6px; width: calc(100% - 130px); }
+.mblScreen .mblMedWikiContentTtl{ line-height: 1.3 !important;}
+.mblScreen .mblMedWikiContentTop{ display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;}
+.mblScreen .mblMedWikiSpeacality{ padding: 5px 8px; border: 1px solid #d3d3d3; background-color: #ffffff;;}
+.mblScreen .mblMedWikiSpeacalityDots{ background-color: #03d0d7;  border-radius: 10px; display: inline-flex; justify-content: space-between; align-items: center; padding: 2px 4px; vertical-align: middle; margin-left: 6px;}
+.mblScreen .mblMedWikiSpeacalityDots span{  border-radius: 50%; width: 2px; height: 2px; background-color: #ffffff; display: inline-block; vertical-align: middle;}
+.mblScreen .mblMedWikiSpeacalityDots span:nth-child(2){ margin: 0 2px;}
+.mblScreen .mblMedWikiPicIn .overlay{ background-color: rgba(0,0,0,0.2);}
+.mblScreen .mblMedWikiSlider .slick-list{ padding-left:0 !important;}
+.mblScreen .mblMedWikiCard{ padding: 0 0 0 2%;}
+.mblScreen .mblMedWikiClient{ float: left; margin-top: 10px;}
+.mblScreen .mblMedWikiClient .mblSessionClientItem img{ float: left;}
+
+
+/*=============================----------- Grand Rounds*/
+.mblScreen .mblGR{ margin-bottom: 15px;}
+.mblGrCardTop{ position: absolute; top: 0; left: 0px; width: 100%; padding: 10px; z-index: 1; width: 100%; justify-content: space-between; align-items: center; display: flex;}
+.mblScreen .mblGRTtl{ padding: 8px 2% 8px 2%; background-color: #f5f5f5; display: inline-block; position: relative;}
+.mblScreen .mblGRTtl span{ position: relative; z-index: 2;}
+.mblScreen .mblGRTtl:before{ position: absolute; top: 0px; right: -20px; height: 100%; background-color: #f5f5f5; content: ""; width: 100%; transform: skewX(30deg);}
+.mblScreen .mblGrSlider{ background-color: #f5f5f5; padding: 15px 0;}
+.mblScreen .mblGrCard_link{ background-color: #ffffff; overflow: hidden;}
+.mblScreen .mblGrPic{  height: 180px; position: relative;}
+.mblGrPicOverBox{ position: relative;  overflow: hidden; border-radius: 0 0 40px 40px;height: 100%;}
+.mblScreen .mblGrPic .overlay{ background-color: rgba(0,0,0,0.14);}
+.mblScreen .mblGrContent{ padding: 15px 2% 10px;  }
+.mblScreen .mblGrContentTtl{ line-height: 1.3 !important; margin-bottom: 6px;}
+.mblScreen .mblGrContentText{line-height: 1.4 !important;}
+.mblScreen .mblGrClient{ float: left; margin-top: 10px;}
+.mblScreen .mblGrClient .mblSessionClientItem img{ float: left;}
+.mblScreen .mblGrSlider .slick-list{ padding-left:0 !important;}
+.mblScreen .mblGrCard{ padding: 0 0 0 2%; }
+.mblScreen .mblDotsMenu.mblDotsMenuMedWikiCard span{ border-color: #080808;}
+
+
+.mblGrMstrDoc{ margin-bottom: 15px; }
+.mblGrMstrDocBoxInPic{ width: 46px; height: 46px; overflow: hidden; position: relative; border: 2px solid #dadada; transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out;}
+.row.mblGrMstrDocRow{ margin: 0 0 0 -8px;}
+.mblGrMstrDocBox{ position: relative; padding: 0 0 0 8px; width: 100%; display: none; margin-top: 8px;}
+.mblGrMstrDocBoxIn{ padding: 5px; border-radius: 6px; background-color: #f2f2f2;}
+.mblGrMstrDocBoxIn > .row{ margin: 0px;}
+.mblGrMstrDocBoxContent{ width: calc(100% - 46px); padding-left: 10px;}
+.mblGrMstrDocBoxContent h4{ margin-bottom: 1px;}
+
+
+.mblGrMstrDocBox.mblGrMstrDocPopShow{ width: auto; margin-top: 0px;}
+.mblGrMstrDocBox.mblGrMstrDocPopShow .mblGrMstrDocBoxIn{ padding:10px 0 0 0 ; background-color: transparent; cursor: pointer;}
+.mblGrMstrDocBox.mblGrMstrDocPopShow .mblGrMstrDocBoxContent{ display: none;}
+.mblGrMstrDocBox.mblGrMstrDocPopShow .mblGrMstrDocBoxIn:before{ position: absolute; top: -10px; left: 50%; transform: translateX(-50%); z-index: 2; border-top: 6px solid #23c8cd; border-left: 6px solid transparent; content: ""; border-right: 6px solid transparent; opacity: 0; transition: all 03s; -webkit-transition: all 0.3s; -ms-transition: all 0.3s; -o-transition: all 0.3s;}
+
+.mblGrMstrDocProfile{ position: absolute; left: 0px; width: 220px; height: 160px; z-index: 9999; overflow: hidden; bottom:100%; display: none; background-color: #282828;}
+.mblGrMstrDocProfile .overlay{ background-color: rgba(0,0,0,0.2);}
+.mblGrMstrDocProfileTxt{ position: absolute; bottom: 0px; left: 0px; padding: 10px; background-color: #23c8cd; z-index: 3;}
+.mblGrMstrDocPopShowActive .mblGrMstrDocBoxIn:hover:before{ top: 0; opacity: 1;}
+.mblGrMstrDocPopShowActive .mblGrMstrDocBoxInPic{ border-color:#23c8cd ; }
+
+
+.mblGrMstrDocBox:nth-child(1),.mblGrMstrDocBox:nth-child(2),.mblGrMstrDocBox:nth-child(3),.mblGrMstrDocBox:nth-child(4),.mblGrMstrDocBox:nth-child(5){
+	display: block;
+}
+.mblGrMstrDocBox:nth-child(5) .mblGrMstrDocBoxIn:before{ display: none;}
+.mblGrMstrDocBox:nth-child(5) .mblGrMstrDocBoxInPic .overlay{ background-color: rgba(0,0,0,0.8);}
+.mblGrMstrDocCount{ position: absolute; top: 50%; transform: translateY(-50%); color: #ffffff; font-size: 20px; z-index: 2; left: 0px; width: 100%; text-align: center;}
+
+/*=============================----------- polls surveys*/
+
+.mblScreen .mblPllsSrvs{ margin-bottom: 15px;}
+.mblScreen .mblPllsSrvsTtl{ padding: 0 2%; margin-bottom: 8px;}
+.mblScreen .mblPllsSrvs_link{ background-color: #ffffff; overflow: hidden;}
+.mblScreen .mblPllsSrvsPic{  height: 180px; position: relative;  }
+.mblScreen .mblPllsSrvsPic .overlay{ background-color: rgba(0,0,0,0.4);}
+.mblScreen .mblPllsSrvsTag{ position: absolute; top: 10px; left: -2px; background-color: #34caf5; padding: 10px 0 10px 20px; z-index: 2;}
+.mblScreen .mblPllsSrvsTag span{ position: relative; z-index: 2;}
+.mblScreen .mblPllsSrvsTag:before{ position: absolute; top: 0px; right: -20px; height: 100%; background-color: #34caf5; content: ""; width: 100%; transform: skewX(30deg);}
+.mblScreen .mblPllsSrvsContent{ padding: 15px 2% 10px; position: relative; z-index: 1; margin-top: -55px; }
+.mblScreen .mblPllsSrvsContentTtl{ line-height: 1.3 !important; margin-bottom: 6px;}
+.mblScreen .mblPllsSrvsContentText{line-height: 1.4 !important;}
+.mblScreen .mblPllsSrvsDrwBox{ display: flex; justify-content: space-between; align-items: center; padding: 10px 2%; background-color: #ffffff; box-shadow: 0 2px 18px rgba(0,0,0,0.14);  margin-bottom: 16px;}
+.mblScreen .mblPllsSrvsPoints span{ display: block; color: #34caf5; line-height: 1.3 !important;}
+.mblScreen .mblPllsSrvsbtm{ display: flex; align-items: center; justify-content: space-between; margin-top: 10px;}
+.mblScreen .mblPllsSrvsbtm_a{ padding: 10px 16px; text-align: center; position: relative; background-color: #355ed3; cursor: pointer;}
+.mblScreen .mblPllsSrvsbtm_a img{ display: inline-block; vertical-align: middle; margin-left: 8px; max-width: 18px;}
+.mblScreen .mblPllsSrvsSlider .slick-list{ padding-left:0 !important;}
+.mblScreen .mblPllsSrvsCard{ padding: 0 0 0 2%; }
+.mblScreen .mblDotsMenuPllsQzsCard{position: absolute; top: 10px; right: 2%; z-index: 3; left: auto;}
+
+
+.mblScreen .mblPollsCard .mblPollsTop{ position: relative; display: flex; align-items: center; justify-content: space-between; padding: 10px 0;}
+.mblScreen .mblPollsCard .mblPllsSrvsTag{ position: relative; top: auto; left: auto;}
+.mblScreen .mblPollsCard .mblPollsTopRight{ display: inline-flex; justify-content: space-between; align-items: center; padding-right: 10px;}
+.mblScreen .mblPollsCard .mblPllsSrvsContent{ margin: 0px;}
+.mblScreen .mblPollsCard .mblPollsCardDots{ position: relative; margin-left: 15px; top: auto;}
+.mblScreen .mblPollsCard .srvPollsRadio .form-check-label{ padding: 15px 0;}
+.mblScreen .mblPollsCard .srvPollsProgressBarIn{ padding-top: 15px ; padding-bottom: 15px;}
+
+/*=============================----------- Recent Area*/
+.mblScreen .mblRecent{ padding: 0 2%; }
+.mblScreen .mblRecentTtl{ margin-top: 10px; }
+.mblScreen .mblRecentCard{ padding: 0; transform: scale(1); margin-bottom: 0; float: left; width: 100%; margin-top: 15px;}
+
+
+.mblScreen .mblSingleCard{ padding: 0px !important;}
+/* ==============-------------grand Rounds details*/
+.mblScreen .mblGrDtls{ padding: 0 2%;}
+.mblScreen .mblGrDtlsSponserd{background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.mblScreen .15); position: relative; margin-top: 8px; padding: 8px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;}
+.mblScreen .mblGrDtlsSponserdTtl{ position: relative; padding-bottom: 8px;}
+.mblScreen .mblGrDtlsSponserdTtl:before{ position:absolute; bottom: 0px; content: ""; left: 0px; width: 30px; height: 1px; background-color: #34caf5;}
+.mblScreen .mblGrLeftMain{ margin-bottom: 30px;}
+.mblScreen .mblGrLeftVideo { height: 48vw; border-radius: 6px; overflow: hidden; margin-bottom:12px; background-color: #cccccc;}
+.mblScreen .mblGrLeftVideo iframe{ width: 100%; height: 100%;}
+.mblScreen .mblMainGrTtl{ margin-bottom: 8px;}
+.mblScreen .mblGrLeftTop{ margin-bottom: 5px; display: flex; align-items: center; justify-content: space-between;}
+.mblScreen .mblGrLeftVideoSharePnl{ margin-bottom: 10px; display: flex; align-items: center; justify-content: space-between;}
+.mblScreen .mblGrLeftVideoSharePnl a{ display: inline-block;}
+.mblScreen .mblGrLeftVideoSharePnl a img{ max-width: 20px; max-height: 20px; display: inline-block ; vertical-align: middle;}
+.mblScreen .mblGrLeftVideoSharePnl a span{ margin-left: 4px;}
+.mblScreen .mblGrLeftVideoSharePnlLeft a{ margin-right: 25px; width: 20px; height: 20px; position: relative;}
+.mblScreen .mblGrLeftVideoSharePnlLeft a img{ position: absolute; max-height: 100%; max-width: 100%;}
+.mblScreen .mblGrLeftVideoSharePnlLeft a img.mblGrLeftShareImg,.mblScreen .mblGrLeftVideoSharePnlLeft a.active img.mblGrLeftShareImgActive{ opacity: 1;}
+.mblScreen .mblGrLeftVideoSharePnlLeft a img.mblGrLeftShareImgActive,.mblScreen .mblGrLeftVideoSharePnlLeft a.active img.mblGrLeftShareImg{ opacity: 0;}
+.mblScreen .mblGrLeftDescription{ margin-bottom: 10px;}
+.mblScreen .mblGrDtlsAttached{background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.mblScreen .15); position: relative; margin-top: 8px; padding: 8px;}
+.mblScreen .mblGrDtlsAttachedRow{ margin: 2px 0 0 -2px;}
+.mblScreen .mblGrDtlsAttachedBox{ padding: 2px 0 0 2px;}
+.mblScreen .mblGrDtlsAttachedBoxIn{ height: 18vw; position:relative; overflow: hidden; background-color: #e9edf8; cursor: pointer;}
+.mblScreen .mblGrDtlsAttachedDownl{ position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 1; background-color:rgba(27,113,241,0.mblScreen .85); opacity: 0;}
+.mblScreen .mblGrDtlsAttachedDownl img{ position: absolute; max-height: 28px; max-width: 28px;}
+.mblScreen .mblGrAttchdFileType-img .mblGrDtlsAttachedPic{ width: 100%; height: 100%; object-fit: cover;}
+.mblScreen .mblGrAttchdFileType-doc .mblGrDtlsAttachedPic{ width: auto; height: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); max-width: calc(100% - 20px); max-height: calc(100% - 20px);}
+.mblScreen .mblGrDtlsAttachedBoxIn:hover .mblGrDtlsAttachedDownl{ opacity: 1;}
+.mblScreen .mblGrDtlsMasterDoc{background-color: #ffffff;  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.mblScreen .15); position: relative; margin-top: 8px; padding: 8px;}
+
+.mblScreen .mblGrMoreList{ margin-bottom: 20px;}
+
+.mblScreen .mblCommentsAreaRow{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); margin-bottom: 4px; padding: 8px; display: flex;}
+.mblScreen .mblCommentsAreaPic{ display: inline-flex; align-items: center; justify-content: center; overflow:hidden; position: relative; width: 40px; height: 40px; background-color: #23c8cd;}
+.mblScreen .mblCommentsContent{ width: calc(100% - 40px); padding-left: 10px; }
+.mblScreen .mblCommentsContent p{ padding-bottom: 4px;}
+.mblScreen .mblCommentsAreaBy{  margin-bottom: 0;}
+.mblScreen .mblCommentsAreaReply_a{ margin-left:10px ; color: #34caf5;}
+.mblCommentsArea{ margin-top: 8px;;}
+.mblScreen .mblComments_frm{ background-color: #ffffff; overflow: hidden; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15); position: relative; margin-top: 6px;}
+.mblScreen .mblComments_frmInput{ border: none; padding: 0 78px 0 8px; height: 50px;}
+.mblScreen .mblComments_frmSubmit{ text-align: center; background-color: #34caf5; color: #ffffff; position: absolute; top: 0px; right: 0px; width: 70px; padding: 0px; height: 100%; border-radius: 0px;}
+.mblScreen .mblCommentsReply{ margin-top: 8px;}
+.mblScreen .mblCommentsReply .mblCommentsAreaRow{ box-shadow: none; padding: 8px; border: 1px solid #eaeaea;}
+.mblScreen .mblCommentsReply .mblCommentsAreaPic{ width: 30px; height: 30px;}
+.mblScreen .mblCommentsReply .mblCommentsContent{ width: calc(100% - 30px); padding-left: 8px; padding-top: 0;}
+.mblScreen .mblCommentsReply .mblComments_frm{box-shadow: none;  border: 1px solid #eaeaea;}
+.mblScreen .mblCommentsReply .mblComments_frmInput{ padding: 0 65px 0 8px; height:40px;}
+.mblScreen .mblCommentsReply .mblComments_frmSubmit{ width: 60px;}
+.mblScreen .mblComments_frm .form-control,.mblScreen .mblComments_frmSubmit {  border: none;}
+.mblScreen .mblComments_frm .mblComments_frmSubmit:focus{ border: none; background-color: #34caf5}
+.mblScreen .mblComments_frm .mblComments_frmSubmit:hover{ background-color: #1a6fec;}
+
+
+
+
+/*=======================----------mblArchiveCard*/
+.mblScreen .mblArchiveCard .mblSessionBttmArea{ margin-top: 0px; padding-top: 15px;}
+.mblScreen .mblArchiveCard .mblArchiveCardTtl{ margin-bottom: 10px;}
+.mblScreen .mblArchiveCard  .mblSessionDocRow{ box-shadow: none; border: 1px solid #e9edf8;}
+.mblScreen .mblArchiveCard .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.25);transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out; }
+.mblScreen .mblArchiveCard .mblSessionTopArea{ padding-bottom: 0px; height:150px;}
+.mblScreen .mblArchiveCardPlay{ position: absolute; z-index: 8; opacity: 0.9; max-width: 50px; max-height: 50px;}
+.mblScreen .mblArchiveCard .mblSessionbtm_a{ background-color: #34caf5;}
+.mblScreen .mblArchiveCard .mblSessionbtm_a:before{ display: none;}
+.mblScreen .mblArchiveCard .mblSessionCard_link:hover .dskArchiveCardPlay{ opacity: 1;}
+.mblScreen .mblArchiveCard .mblSessionCard_link:hover .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.75);}
+
+.mblScreen .mblNo-ArchiveVideoCard .mblSessionTopArea{ height: 140px;}
+.mblScreen .mblNo-ArchiveVideoCard .mblSessionbtm{ justify-content: flex-end;}
+.mblScreen .mblNo-ArchiveVideoCard .mblSessionTopArea{ background-color: #585858;}
+.mblScreen .mblNo-ArchiveVideoCard .ssnTopBgGraphic{ filter: grayscale(1);}
+.mblScreen .mblNo-ArchiveVideoCard .mblSessionCard_link:hover .mblSessionTopArea .overlay{ background-color: rgba(0,0,0,0.45);}
+.mblScreen .mblNo-ArchiveVideoCard .mblNo-ArchiveVideoCardInfo{ position: absolute; z-index: 5; color: #ffffff; text-align: center; width: 100%;}
+
+
+.mblScreen .medWiki  .feed_right{height: calc(100vh - 176px); top: 96px;}
+.mblScreen .medWikifilterRes{ bottom: 100px;}
+.mblScreen .right_pop{ z-index: 999999;}
+.mblScreen .right_popTtl{ height: 70px; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between;}
+.mblScreen .ssnFilterPop.right_pop{ padding-top: 70px;}
+.mblScreen .ssnFilterPop .right_popIn{ padding-top: 30px; padding-bottom: 50px;}
+.mblScreen .ssnFilterPop .right_popIn .btnGreen.cmnBtn{ width: 96%; left: 2%; position: absolute; bottom: 0px;}
+
+/*search_ListCards*/
+.mblScreen .search_ListCards{   padding: 0px 5px; margin-top: 10px;}
+.mblScreen .searchResultBoxTtl{ margin-bottom:10px ; margin-top: 10px;}
+.mblScreen .search_ListCards .mblRecentCard{ margin-top: 0px; padding: 0px;}
+
+/*poll surv card*/
+.mblScreen .dskMasonryCardArea .mblPllsSrvsCard{ padding: 0 5px; margin-top: 10px;}
+
+.mblScreen .mblIcantAttnd{ margin-top: 10px;}
+.mblScreen .mblIcantAttndBtn{ display: inline-block; border-bottom: 1px solid #e03763; padding:0 0 3px 0; background-color: transparent;}
+
+.mblScreen .medWiki .specialty_comp_right{ padding-top: 54px;}
+.mblScreen .dskTrendingMedwikiCard.feeddetail_related{ padding: 0px; margin-top: 0;}
+.mblScreen .dskTrendingMedwikiCard.feeddetail_related .mblMedWikiCard_link{   border-bottom: 1px solid #f3f3f3;}
+
+/*Hospital*/
+.mblScreen .hiospitalHome .mycontainer > .row{ margin: 0px;}
+.mblScreen .mycontainer .dskHspltDbSearch{ width: 350px;}
+.mblScreen .mycontainer .dskHspltDbSlider{ margin-bottom: 20px; padding-right: 0px;}
+.mblScreen .mycontainer .dskHspltDbSliderArea:before{border-width: 14px; width: calc(100% - 60px);}
+.mblScreen .mycontainer .dskHspltDbSliderArea{padding-bottom: 22px;}
+.mblScreen .mycontainer .dskHspltDbSliderArea .slick-dots li{ height: 14px; width: 8px;}
+.mblScreen .mycontainer .dskHspltDbSliderArea .slick-dots li:before{ width: 6px; height: 6px; border-width: 1px;}
+.mblScreen .mycontainer .dskHspltDbActivities{ padding: 0px; background-color: transparent; box-shadow: none;}
+.mblScreen .mycontainer .dskHspltDbActivitiesBtn a{ padding:8px 15px; background-color: #34caf5;}
+.mblScreen .mycontainer .dskHspltDbActivitiBx .dskHspltDbActivitiBxIn{ background-color: #ffffff; padding: 15px; border-radius: 8px; box-shadow: 0 0 15px 0 rgba(0,0,0,0.13);}
+.mblScreen .mycontainer .dskHspltDbActivitiBxCnt h5.colorWhite{ color: #080808;}
+.mblScreen .mycontainer .dskHspltDbActivitiBxCnt h3.colorWhite{ font-size: 30px; position: relative; line-height: 1; margin-bottom: 10px;}
+.mblScreen .mycontainer .dskHspltDbActivitiBxArrow{ border-radius: 30px; width: 50px;}
+.mblScreen .mycontainer .dskHspltDbActivitiBxArrow img{ max-width: 16px;}
+.mblScreen .mycontainer .dskHspltDbActivitiBxIn:before{ transform: skew(0); border-radius: 100%; width: 120px; height: 120px; right: -30px; top: -50px; opacity: 0.2;}
+.mblScreen .mycontainer .dskHspltDbActivitiBxCnt h3.colorWhite:before{ position: absolute; top: 0; left: -15px; height: 100%; width: 2px; content: "";}
+
+.mblScreen .mycontainer .dskHspltDb-activeCases .dskHspltDbActivitiBxCnt h3.colorWhite{ color: #1b71f1;}
+.mblScreen .mycontainer .dskHspltDb-activeCases .dskHspltDbActivitiBxIn:before,.mblScreen .mycontainer .dskHspltDb-activeCases .dskHspltDbActivitiBxCnt h3.colorWhite:before{ background-color: #1b71f1;}
+.mblScreen .mycontainer .dskHspltDb-pending  .dskHspltDbActivitiBxCnt h3.colorWhite{ color: #dcaf28;}
+.mblScreen .mycontainer .dskHspltDb-pending .dskHspltDbActivitiBxIn:before,.mblScreen .mycontainer .dskHspltDb-pending .dskHspltDbActivitiBxCnt h3.colorWhite:before{ background-color: #dcaf28;}
+.mblScreen .mycontainer .dskHspltDb-rejected .dskHspltDbActivitiBxCnt h3.colorWhite{ color: #c92149;}
+.mblScreen .mycontainer .dskHspltDb-rejected .dskHspltDbActivitiBxIn:before,.mblScreen .mycontainer .dskHspltDb-rejected .dskHspltDbActivitiBxCnt h3.colorWhite:before{ background-color: #c92149;}
+.mblScreen .mycontainer .dskHspltDb-completed .dskHspltDbActivitiBxCnt h3.colorWhite{ color: #29c178;}
+.mblScreen .mycontainer .dskHspltDb-completed .dskHspltDbActivitiBxIn:before,.mblScreen .mycontainer .dskHspltDb-completed .dskHspltDbActivitiBxCnt h3.colorWhite:before{ background-color: #29c178;}
+.mblScreen .mycontainer .dskHspltDbSliderBoxInRight .dskHspltDbCardBttn{ background-color: #34caf5;}
+.mblScreen .mycontainer .dskHspltDbSliderArea:before{ border-color: #34caf5;}
+
+.mblScreen .hiospitalProfile .mycontainer > .row{ margin: 0px;}
+.mblScreen .mycontainer .dskHspltPrflBnrLft,.mblScreen .mycontainer .dskHspltPrflBnrRght{ border-radius: 0px;}
+.mblScreen .mycontainer .dskHspltPrflBnrLft{ padding: 100px 15px 20px;}
+.mblScreen .mycontainer .dskHspltPrflBnrRght{ background-color: #ffffff; box-shadow: 0 4px 15px 0 rgba(0,0,0,0.14); padding: 15px;}
+.mblScreen .mycontainer .dskHspltPrflBnrRght:before{ display: none;}
+.mblScreen .mycontainer .dskHspltPrflBnrRghtIn h2{ color: #080808; margin-bottom: 13px;}
+.mblScreen .mycontainer .dskHspltPrflBnrRghtIn h6{ color: #080808; margin-top: 10px;}
+.mblScreen .mycontainer .dskHspltPrflBnrRghtBtns_a{ background-color: #34caf5; color: #ffffff;}
+.mblScreen .mycontainer  .dskHspltPrflBnrToolTip,.mblScreen .mycontainer  .dskHspltPrflBnrRghtBtns:after{ background-color: #080808;}
+.mblScreen .mycontainer .dskHspltPrflBnrRghtBtns_a img{ filter: brightness(0) invert(1);}
+.mblScreen .mycontainer .dskHspltPrflActv > .row{ margin: 0px;}
+.mblScreen .mycontainer .dskHspltPrflBnr{ margin-bottom: 20px;}
+.mblScreen .mycontainer .row.dskHspltPrflActvTtlArea{ margin-bottom: 10px;}
+.mblScreen .mycontainer  .dskHspltPrflActv{ margin-bottom: 0px;}
+.mblScreen .mycontainer .hiospitalProfileCards .mblRecent{ padding: 0px;}
+
+.mblScreen .mycontainer .dskHspltActivitesCard .dskHspltActivitesCardIn{ position: relative; background-color: #ffffff; border-radius: 8px; overflow: hidden;}
+.mblScreen .mycontainer .dskHspltActivitesCard .dskHspltActivitesCardIn:before{ position: absolute; bottom: -50px; right: -30px; width: 120px; height: 120px; opacity: 0.09; content: ""; border-radius: 50%;}
+.mblScreen .mycontainer .dskHspltActivitesCardTop h5{ margin-bottom: 5px;}
+.mblScreen .mycontainer .dskHspltActivitesGreen  .dskHspltActivitesCardIn{border-color: #bee4d5; }
+.mblScreen .mycontainer .dskHspltActivitesGreen  .dskHspltActivitesStts:before{background-color: #3fbe8d; }
+.mblScreen .mycontainer .dskHspltActivitesGreen .dskHspltActivitesStts{color: #3fbe8d; }
+.mblScreen .mycontainer .dskHspltActivitesGreen .dskHspltActivitesCardIn:before{ background-color: #3fbe8d;}
+
+.mblScreen .mycontainer .dskHspltActivitesYellow .dskHspltActivitesCardIn{border-color: #e0dbbc; }
+.mblScreen .mycontainer .dskHspltActivitesYellow .dskHspltActivitesStts:before{background-color: #ceb617; }
+.mblScreen .mycontainer .dskHspltActivitesYellow .dskHspltActivitesStts{color: #ceb617; }
+.mblScreen .mycontainer .dskHspltActivitesYellow .dskHspltActivitesCardIn:before{ background-color: #ceb617;}
+
+.mblScreen .mycontainer .dskHspltActivitesRed .dskHspltActivitesCardIn{border-color: #efc0cb; background-color: #fff1f4; }
+.mblScreen .mycontainer .dskHspltActivitesRed .dskHspltActivitesStts:before{background-color: #e03763; }
+.mblScreen .mycontainer .dskHspltActivitesRed .dskHspltActivitesStts{color: #e03763; }
+.mblScreen .mycontainer .dskHspltActivitesRed .dskHspltActivitesCardIn:before{ background-color: #f00;}
+
+.mblScreen .mycontainer .dskHspltActivitesSeaGreen .dskHspltActivitesCardIn{border-color: #b1e0ee; }
+.mblScreen .mycontainer .dskHspltActivitesSeaGreen .dskHspltActivitesStts:before{background-color: #34caf5; }
+.mblScreen .mycontainer .dskHspltActivitesSeaGreen .dskHspltActivitesStts{color: #34caf5; }
+.mblScreen .mycontainer .dskHspltActivitesSeaGreen .dskHspltActivitesCardIn:before{ background-color: #34caf5;}
+
+.mblScreen .dskHspitalFormDiscuss .mycontainer >.row{ margin: 0px;}
+.mblScreen .mycontainer .dskHspitalFormTtl{ padding: 15px;}
+
+.mblScreen .mycontainer .dskRightActivities .dskHspltActivitesCard .dskHspltActivitesCardIn{background-color: #f9f9f9; }
+
+.mblScreen .dskHspitalFormRefer .mycontainer >.row,.mblScreen .dskHspitalThankyou .mycontainer >.row{ margin: 0px;}
+
+
+.mblScreen .dskHspitalFormReInitiate .mycontainer >.row,.mblScreen .hspitalActivities .mycontainer >.row{ margin: 0px;}
+.mblScreen .dskHspitalFormReInitiate .mycontainer  .dskHspitalFormTtl{ padding-bottom: 50px;}
+.mblScreen .mycontainer .dskHspltActvTTlArea > .row{ margin: 0px;}
+.mblScreen .mycontainer .dskHspltActiveNav li a{ padding: 8px 10px;}
+.mblScreen .mycontainer .dskHspltActiveNav li{ margin-left: 3px;}
+.mblScreen .dskfeedDtlRow_Pic{ height: 300px;}
+
+/* CPH */
+.mblCphTtl{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;}
+.mblCphTtl h1{ max-width: calc(100% - 80px);}
+.mblCphTtlShare{ background-color: #34caf5; color: #ffffff; border-radius: 6px; padding: 5px 8px;}
+.mblCphTtlShare img{ display: inline-block; vertical-align: middle; margin-right: 1px; max-width: 14px; max-height: 14px; filter: brightness(0) invert(1);}
+.mblCphTtlShare:hover{ background-color: #1a6fec; color: #ffffff;}
+.mblScreen .hlsP_videoBox{ height: auto;}
+.mblScreen .hls_Pvideo_right{ position: relative; top: auto; right: auto; width: 100%; float: left; margin-top: 20px; border-radius: 6px ; overflow: hidden; height: 60vh;}
+.mblScreen .hlsP_videoBox{ background-color: transparent; box-shadow: none;}
+.mblScreen .hlsPlayerVideo{ width: 100% !important; height: 36vh !important; border-radius: 6px; overflow: hidden;}
+
+.mblCphFloating_bttn{ position: fixed; bottom: 125px; right: 12px; z-index: 9; width: 84px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #ffffff;}
+/* .mblCphFloating_bttn:after{position: absolute;  bottom: -8px; right: 7px; content: ""; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 15px solid #1a6fec;
+    transform: rotate(-25deg);} */
+	.mblCphFloating_bttn img{ max-width:100%; max-height:100%; width:auto; height:auto;}
+	.crisp-client .cc-kv6t[data-full-view=true] .cc-1xry .cc-unoo .cc-7doi{ margin-bottom: 40px !important;}

@@ -1,0 +1,583 @@
+
+@media screen and (max-width:1199px) {
+	/*header*/
+	.headerTop{ padding: 0 10px;}
+	.logo_top img{ max-width: 150px; height: 40px;}
+	.header_right .navbar-nav a.nav-link{ margin: 0 10px;}
+	.header_right .navbar-nav{ margin-left: 20px;}
+
+	/*medwiki*/
+	
+	.medWikiLeft{width: -webkit-calc(100% - 280px); padding-right: 18px; width: calc(100% - 280px);}
+	.feed_right{ width: 280px;}
+	.feedRowTop{ padding: 15px 2%;}
+	.feedRow_ttl{ margin-bottom: 10px;}
+	.feedRow_ans,.feedRow_Pic{ margin-bottom: 20px;}
+	.feedRow_ttl,.feedRow_ans,.feed_footer,.feedDtls_comment,.masonryBoxFeed .feed_footer { padding: 0 2%;}
+	.feed_footer .row{ margin: 0;}
+	.feedFter_left,.masonryBoxFeed .feedFter_left{ margin-right: 18px;}
+	.feedFter_left:last-child,.masonryBoxFeed .feedFter_left:last-child{ margin-left: 10px;}
+	.feedRow_Pic img{ max-height: 340px;}
+	.feedcommentsArea{ padding: 15px 2%;}
+
+	/* dashboard */
+	/* .dashboard .feed_right_2{ width: 320px;}
+	.dashboard .medWikiLeft { width: calc(100% - 320px); width: -webkit-calc(100% - 320px);padding: 0 40px 0 0;} */
+	.dashboard .searchFrmRow{ margin-top: 10px;}
+	/* peer section --------------*/
+	.arngDiscusleft{ padding-right: 20px;}
+	.arngDiscusleft .cmnRadio_row .form-check-input:checked+.form-check-label .checkGraph{ border-left-width: 15px;}
+	.arngDiscus_ttl{ padding: 10px 30px 12px 14px; background-position: right 14px center; background-size: 18px;}
+	.arngDiscusleft .cmnRadio_row .form-check-label{ padding:18px 14px 18px 40px;}
+	.arngDiscusleft .cmnRadio_row .form-check-label:before{ width: 22px; height: 22px; left:10px; top: 16px;}
+	.arngDiscusleft .cmnRadio_row .form-check-label:after{ width: 14px; height: 14px; top: 20px; left: 14px;}
+	.arngDiscusMain .ssnDtls2nd{ padding: 15px 0;}
+	.arngDiscus_Doc .cmnBtn{ padding: 12px; font-size: 12px;}
+	.arngDiscus_Doc .ssnDtlsDocIn{ padding: 10px;}
+	.arngDiscusMain  .askQuestion_files{ margin-top: 10px;}
+	/*profile*/
+
+	/*session*/
+	
+	.ssn_p_box{ padding-left: 10px;}
+	.ssn_p_add{ margin-left: -10px;}
+	.ssn_p_BoxTop{ padding: 5px 2%;}
+	.my_session_box_sponsors span{ display: block; text-align: right; margin: 0;}
+	.my_session_box_sponsors img{ max-height: 24px;}
+	.session_time img{ margin-right: 5px;}
+	.session_time{ padding: 10px 2%; font-size: 12px;}
+	.my_session_box_ttl{ padding: 12px 2%; margin-bottom: 10px;}
+	.session_Row{ padding-right: 2%; padding-left: calc(50px + 4%); padding-top: 0; margin-bottom: 5px;}
+	.session_RowPIc{ left: 2%; width: 50px; height: 50px;}
+	.session_doctor span{ margin: 0;}
+
+	/*session details*/
+	.ssnDtls{ margin-top: 40px;}
+	.ssnDtls .feedRow_ttl{ padding: 10px 2%;}
+	.ssnDtls2nd> .row{ margin:0}
+	.ssnDtlsfrm,.ssnDtlsDoc{ padding: 0 2%;}
+	.ssnDtls2nd{ padding: 0;}
+	/*search*/
+	.searchResult{ margin-top: 40px;}
+
+/*p_peer*/
+.p_peerSubmit{ bottom: 20px;}
+
+/*survey*/
+.surveyRight{width: -webkit-calc(100% - 280px); padding-right: 18px; width: calc(100% - 280px);}
+.surveyLeft{ width: 280px;}
+/*survey_details*/	
+.survey_details .surveyLeft{ float: right;}
+.survey_details .surveyRight{ float: left; padding-left: 0px; padding-right: 25px;}
+.survey_detailsBtmBox{ padding: 0 10px;}
+.srvQus_QusCheck4 .cmnCheckBox_row .form-check-label{ height: 170px;}
+
+.surveyRight_top ul li a{ padding:0 20px;}
+
+.srvTopBnner{ margin: 0 0 20px 0;}
+
+.seeeionPage .feed_right_2{ width: 320px;}
+.seeeionPage .medWikiLeft { width: calc(100% - 320px); width: -webkit-calc(100% - 320px); padding-right: 20px;}
+}
+@media screen and (max-width:991px) {
+	
+	body {font-size: 12px}
+	.font_12px{	font-size: 10px}
+	.font_14px{ font-size: 12px }
+	.font_16px,.font_17px{	font-size: 14px}
+	.font_18px{font-size: 16px}
+	.font_20px,.font_22px {font-size: 16px}
+	.font_24px{font-size: 20px}
+	.font_30px{font-size: 22px}
+	.font_36px{font-size: 24px}
+	.font_48px{font-size: 26px}
+	.font_60px{font-size: 30px}
+	.font_72px{font-size: 36px}
+
+	/*login*/
+	.l_rightIn .row.align-items-center> .col{ padding: 30px;}
+	.l_frmSubmit{ padding: 13px 5px ;}
+
+	/*header*/
+	.headerTop{ padding: 0 2%; height: 50px;}
+	.logo_top{ margin: 9px 0;}
+	.logo_top img{ height: 30px; max-width: 120px;}
+	.navbar-toggler.menuIconRes{ padding: 0px; border: none;}
+	.menuIconRes .navbar-toggler-icon{ background-image: none; position: relative;}
+	.menuIconRes .navbar-toggler-icon:after,.menuIconRes .navbar-toggler-icon:before{
+		position: absolute; top: 0; left: 0; width: 100%; height: 100%; content: "";
+		background-position: center; background-repeat: no-repeat;
+	}
+	.menuIconRes .navbar-toggler-icon:before{background-image: url(../images/responsive-icon-active.png); background-size: 60%; opacity: 1;}
+	.menuIconRes .navbar-toggler-icon:after{ opacity: 0;}
+
+	.menuIconRes.collapsed .navbar-toggler-icon:after{ background-image: url(../images/responsive-icon.png); background-size: 90%; opacity: 1;}
+	.menuIconRes.collapsed .navbar-toggler-icon:before{ opacity: 0;}
+	.search_top_res{ display: block;}
+	.search_top_desk{ display: none;}
+	.forResNavRight{ display: flex;}
+	.search_top{ width: 34px; height: 34px; margin: 8px 15px 8px 10px ; float: left; position: relative; background-color: #e8ebf0;}
+	.search_top img{ max-width: 15px; max-height: 15px;}
+	.header_right{ width: 280px; display: block !important ; top: 50px; position: fixed;
+	height: calc(100% - 50px)!important; background-color: #fff; right: 0;
+	height: -webkit-calc(100% - 50px)!important; }
+
+	.topProfileArea{ width: 100%; float: left; margin-bottom: 25px; background-color: #ececec; text-align: left; padding: 15px;}
+	.topProfileArea .header_profile{ float: none; display: inline-block; vertical-align: middle; margin: 0 10px 0 0;}
+	.topProfileArea> span{ display: inline-block; vertical-align: middle;}
+	.topProfileArea> span span{ display: block;}
+	.noti_vaultTop.logoutBtn,.noti_vaultTop.noti_vaultTop{ float: none; display: inline-block; margin: 20px 8px 0 10px;}
+	.header_right .navbar-nav{ float: left; width: 100%; margin: 0px; border-bottom: 1px solid #e6e6e6; padding-bottom: 25px;}
+	.header_right .navbar-nav a.nav-link{ padding: 12px 20px; text-align: left; margin:0px; }
+	.header_right .navbar-nav a.nav-link.active, .header_right .navbar-nav a.nav-link:hover{ color: #355ed3;}
+	.header_right .navbar-nav a.nav-link:after{ display: none;}
+	.header_right{ transform: translateX(280px); -webkit-transform: translateX(280px); box-shadow:none;transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out;}
+	.header_right.show{box-shadow: -10px 20px 30px 0 rgba(0,0,0,0.35); transform: translateX(0); -webkit-transform: translateX(0);}
+
+	.warp_body{ padding-top: 50px;}
+
+	/*medWiki*/
+	.medWikiLeft{width: -webkit-calc(100% - 240px); padding-right: 25px; width: calc(100% - 240px);}
+	.feed_right{ width: 240px;}
+	.feedFter_left img{height: 18px; max-width: 20px;}
+	.feed_footer .st-btn,.masonryBoxFeed .feed_footer .st-btn{ height: 18px !important;  width: 30px;margin-right: 10px !important;}
+	.feed_footer .st-btn img,.masonryBoxFeed .feed_footer .st-btn img{ width: 12px !important; height: 12px !important;}
+	.feed_footer .st-inline-share-buttons,.masonryBoxFeed .feed_footer .st-inline-share-buttons{ margin-top: 2px;}
+	.feedRow_sponsors img{ max-height: 26px; max-width: 110px;}
+	.feedRow_speciality{ padding: 5px 10px; margin-right: 5px;}
+	.feedRowTop{ padding-bottom: 10px; margin-top: 0; margin-bottom: 4px;}
+	.feed_right_2{ width: 240px;}
+	/*medWiki Dtls*/
+	.feedcommentsPic{ width: 50px; height: 50px; border-width: 2px;}
+	.feedcommentsRow{ margin-bottom: 10px; padding: 0 0 10px 60px; min-height: 50px;}
+	.feedcommentsRow p{ padding: 0px;}
+	.feedcommentsRow .feedcommentsRowReply{ margin-top: 12px;}
+	.feedfooterComment{ height: 50px;}
+	/*search*/
+	.searchResultSearch{ margin-bottom: 20px;}
+	.searchResultInput{ height: 60px; background-size: 24px; background-position: 12px center;
+	padding: 0 10px 0 50px;}
+	.searchResultSearch .searchResultInput{ padding-right: 290px; padding-left: 44px;}
+	.searchResultSearch .searchFrmRow .btnBlue{ width: 80px; font-size: 14px;}
+	.searchResultSearch .searchFrmRowSpecialty{ right: 80px; width: 200px; padding: 0 10px; }
+	.searchResult .medWikiLeft{    width: 100%; padding: 0; margin-bottom: 20px;}
+	.searchResult .feed_right_2{ width: 100%;}
+	.searchResultBoxTtl{ margin-bottom: 10px;}
+	.searchResult .ssn_p_boxIn{ margin-bottom: 10px;}
+	.searchResultInput::placeholder {
+		color: #8b8b8b !important;
+		opacity: 1; /* Firefox */ font-size: 16px;
+	  }
+	  
+	  .searchResultInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: #8b8b8b !important; font-size: 16px;
+	  }
+	  
+	  .searchResultInput::-ms-input-placeholder { /* Microsoft Edge */
+	   color: #8b8b8b !important; font-size: 16px;
+	  }
+	  .masonryBox{ padding: 0 4px;}
+
+	/*session*/
+	.ssn_main .ssn_p_box{ width: 50%; max-width: 50%; flex: auto;}
+	.my_session_top ul li a{ line-height: 56px !important; padding: 0 20px;}
+	.ssn_filter{ height: 44px; width: 44px;}
+
+	/*session details*/
+	.ssnDtls .feed_right_2{ width: 100%;}
+	.ssnDtls .medWikiLeft{ width: 100%; padding: 0px;}
+
+	/*dashboard*/
+	/* .dashboard .medWikiLeft{ width: -webkit-calc(100% - 250px); width:calc(100% - 250px); padding-right: 25px;}
+	.dashboard .feed_right_2{ width: 250px;} */
+	.dashboard .searchResultInput{ height: 60px; padding: 0 10px 0 50px;}
+	.specialtyTtl{ height: 44px; line-height: 44px !important;}
+
+	.doctorDtlsPop .modal-dialog {
+		width: 500px;
+		max-width: 500px;
+	}
+
+	/*peer-------*/
+	.arngDiscusleft{ margin-bottom: 20px;}
+	.arngDiscus_RadioArea{ display: flex; flex-wrap: wrap; padding-bottom: 20px;}
+	.arngDiscus_RadioArea .cmnRadio_row{ width: 32.33%; margin: 0px;}
+	.arngDiscus_RadioArea .cmnRadio_row:nth-child(2){ margin: 0 1.5%;}
+	.arngDiscusleft .cmnRadio_row .form-check-label{ padding:40px 10px 10px 10px; text-align: center; border: 1px solid #ececec; height: 100%; font-size: 13px;}
+	.arngDiscusleft .cmnRadio_row .checkGraph{ top: 100%; transform: translateY(0) translateX(-50%); left: 50%; border-left: 16px solid transparent;
+		border-top: 22px solid #ececec;
+		border-right: 16px solid transparent; }
+	.arngDiscusleft .cmnRadio_row .form-check-input:checked+.form-check-label .checkGraph{ border-left: 16px solid transparent; border-top: 14px solid #ececec; left: 50%;}
+	.arngDiscusleft .cmnRadio_row .form-check-label:before{ left: 50%; transform: translateX(-50%); top: 14px;}
+	.arngDiscusleft .cmnRadio_row .form-check-label:after{left: 50%; transform: translateX(-50%); top: 18px;}
+	
+	/*survey*/
+.surveyRight{width: -webkit-calc(100% - 260px); padding-right: 35px; width: calc(100% - 260px);}
+.surveyLeft{ width: 260px;}
+/*survey_details*/	
+.survey_details .surveyLeft{ float: right;}
+.survey_details .surveyRight{ float: left; padding-left: 0px; padding-right: 20px;}
+.survey_detailsBtmBox{ padding: 0 10px;}
+
+.srvQus_QusCheck4 .cmnCheckBox_row .form-check-label{ height: 120px;}
+.srvQus_QusCheck4 .cmnCheckBox_row .form-check-input+.form-check-label:after{width:60px;height:60px; border: 4px solid rgba(255,255,255,0.3); background-size: 22px;}
+
+.surveyLanding_p .surveyRight{width: 100%; padding: 0;}
+
+
+.header_right .navbar-nav a.nav-link .newItemav{ top: -5px;}
+
+.surveyLanding_p .surveyLeft{ position: fixed; top: 98px; left: 0px; width: 100vw; z-index: 9; box-shadow: 0 0 15px 0 rgba(0,0,0,0.15); background-color: #ffffff; }
+.surveyLeftTTl{ margin: 0px; padding:  15px; line-height: normal !important;}
+.surveyLeftTTl_inner{ display: block;}
+
+
+.surveyLeftBoxArea{ padding: 15px; border-top: 1px solid #e6e6e6; display: none;}
+.surveyLeftBoxArea li{ width: 50%; padding-left:15px; margin: 10px 0 0 0;}
+.surveyLeftBoxArea ul{ margin-left: -15px; margin-top: -10px;}
+.surveyLeftBoxArea li a{    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);}
+.surveyCollaps span{ position: absolute; top: 50%; transform: translateY(-50%); right: 15px; width: 22px; height: 22px;} 
+.surveyCollaps span:before,.surveyCollaps span:after{ position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); background-color: #282828; content: "";}
+.surveyCollaps span:before{ height: 2px; width: 100%;}
+.surveyCollaps span:after{ width: 2px; height: 100%;}
+.surveyLeftTTl img{ max-width: 30px; max-height: 30px; margin-right: 10px;}
+
+
+.surveyCollapsActive span:after{ opacity: 0;}
+.surveyCollaps{ display: block;}
+.playBtnVideoIcon{ width: 60px; height: 60px; background-color: #355ed3;}
+.playBtnVideoIcon img{  max-width: 15px; }
+.seeeionPage .medWikiLeft { width: 100%; padding-right: 0px;}
+.seeeionPage .feed_right_2 { width: 100%;}
+
+.telemedPBnnrLeftMain{ width: 220px; height: 480px;}
+.telemedPBnnrRight{ padding-left: 0px;}
+
+.videoArchive .medWikiLeft{ margin-bottom: 25px;}
+
+
+}
+@media screen and (max-width:767px) {
+.font_20px, .font_22px { font-size: 16px}
+.font_24px {font-size: 20px}
+.font_30px {font-size: 22px}
+.font_36px {font-size: 24px}
+.font_48px {font-size: 26px}
+.font_60px {font-size: 30px}
+.font_72px {font-size: 36px}
+.body_area{ padding-bottom: 20px;}
+/*login*/
+.l_mainBox{ height: auto; width: 100%; float: left;}
+.l_leftBox{ width: 100%; height: auto; background-color: #fff;}
+.l_session_left,.l_medWiki_left{ height: auto;}
+.loginGrap{ position: relative; transform: none; left: auto; top: auto; display: table; margin: 0px auto; max-height: 480px;}
+.l_frmPart{ height: auto; width: 100%;}
+.l_rightIn{ height: auto;}
+.l_rightIn> div,.l_rightIn> div> div{ position: relative !important; height: auto !important; margin: 0 !important;}
+
+
+.l_rightIn .row.align-items-center{ height: auto;}
+/*share*/
+.l_medwiki_Body,.l_session_body{ height: auto;}
+.l_medwiki_Body> div,.l_medwiki_Body> div> div,.l_session_body> div,.l_session_body> div> div{ position: relative !important; height: auto !important;}
+.l_medwikiTtl:before{ width: 2px;}
+
+.body_area .container{ padding: 0 2%;}
+.body_area .container> .row{ margin: 0;}
+/*medwiki*/
+.medWiki{ margin-top: 20px;}
+.medWikiLeft{ padding: 0px; width: 100%; margin-bottom:10px;}
+
+.medWiki .specialtyTtl{ height: 54px; line-height: 54px !important;align-items: center;
+    display: flex;
+	flex-wrap: wrap; z-index: 999;
+	justify-content: space-between; position: absolute; top: 0; left: 0; width: 100%;
+}
+.medWiki .specialty_comp_right{ height: 100%; padding-top: 70px; overflow-y:scroll;}
+.medWiki .feedRightSpecilityPrnt{ margin-bottom: 10px;}
+.medWiki  .specialtyTtl .right_popClose{ display: inline-block;}
+.medWiki .feed_right{  position: fixed; top: 50px; right: 0; z-index: 1050; width: 400px; height: calc(100vh - 50px);  background-color: #fff; 
+	 transform: translateX(400px);  -webkit-transform: translateX(400px); max-width: 100%;transition: all 0.6s ease-in-out; -webkit-transition: all 0.6s ease-in-out; -ms-transition: all 0.6s ease-in-out; -o-transition: all 0.6s ease-in-out;}
+.tmobFilterShow .medWiki .feed_right{transform: translateX(0);  -webkit-transform: translateX(0); }
+.medWikifilterRes{ display: block; position: fixed; z-index: 3; bottom: 80px; right: 2%; width: 44px; height: 44px;box-shadow: 0 5px 20px 0 rgba(0,0,0,0.35);}
+.medWikifilterRes img{ position: absolute; max-width: 18px; max-height: 18px; width: auto; height: auto; }
+.tmobFilterClose{ display: block; position: absolute; width: 36px; height: 36px; line-height: 36px !important; text-align: center; color: #fff; background-color: #355ed3; right: 15px; }
+.feedRow{ margin-bottom: 10px; padding-bottom: 12px;}
+.feedRow_Pic img{ max-height: 280px;}
+/*medwiki dtls*/
+.feed_right_2{ width: 100%;}
+/*profile*/
+
+.profileRow_1{ padding: 12px 2%;}
+.p_profile_sec_Pic{ width: 120px; height: 120px;}
+.profileImg_edit{ right: 10px;}
+.profileRow1_Right { width: calc(100% - 140px);}
+.p_profile_row_ttl{ height: 56px; padding: 0 80px 0 60px;}
+.p_profile_row_ttl_icon{ width: 100px; height: 100px; left: -50px;}
+.p_profile_row_ttl_icon img{ max-width: 25px; max-height: 25px;}
+.p_profile_row_ttlTxt{ line-height: 56px !important;}
+.p_profile_row_sub{ padding: 10px 2%;}
+.p_profile_sub_a{ width: 30px; height: 30px; margin-left: 5px;}
+.p_profile_sub_a img{ max-width: 16px; max-height: 14px;}
+.profileRow{ margin-bottom: 10px;}
+.p_profile_row_ttlTxt{ font-size: 16px;}
+
+.right_pop{ width: 380px; max-width: 100%; padding-top: 60px;}
+.right_popTtl{ padding: 10px 2%; height: 60px;}
+.right_popTtlTxt{ margin: 5px 0;}
+.right_popIn{ padding: 10px 2%;}
+.right_pop .specialty_comp_right_text{ padding: 0;}
+
+/*search*/
+.searchResult{ margin-top: 20px;}
+.searchResultInput::placeholder {
+	color: #8b8b8b !important;
+	opacity: 1; /* Firefox */ font-size: 14px;
+  }
+  
+  .searchResultInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	color: #8b8b8b !important; font-size: 14px;
+  }
+  
+  .searchResultInput::-ms-input-placeholder { /* Microsoft Edge */
+   color: #8b8b8b !important; font-size: 14px;
+  }
+  .searchResultSearch .searchFrmRow .btnBlue{ width: 100%; position: relative; top: auto; height: 48px; width: 100%;
+	 float: left; margin-top: 8px; border-radius: 6px; }
+	 .searchResultInput,.dashboard .searchResultInput{ background-size: 18px; height: 48px; padding: 0 10px 0 34px;}
+	.searchResultSearch .searchFrmRowSpecialty{width: 100%; position: relative; top: auto; height: 48px; width: 100%;
+		float: left; margin-top: 8px; border-radius: 6px; right: auto; box-shadow: 0 2px 12px 0 rgba(0,0,0,0.15) !important;
+	}
+	.searchResultSearch .searchResultInput{ padding-right: 10px;}
+	.masonryBox{ padding: 0;}
+/*session*/
+.ssn_main .ssn_p_box{ width: 100%; max-width: 100%; flex: auto;}
+
+.ssn_filterDesk{ display: none;}
+.my_session_top ul{ width: 100%;}
+.my_session_top ul li a{ display: block; line-height: 48px !important;}
+.ssnFilterPop .right_popIn{ padding: 10px 2%;}
+.ssnFilterDateCont .react-datepicker-wrapper{ width: 100%;}
+
+.filterSsnPBtn{  padding: 4px 2px; margin-bottom: 10px;}
+.filterSsnPBtn .ssn_filter{ margin: 0 2px; background-color: #38b49b; width: 38px; height: 38px;}
+.filterSsnPBtn .ssn_filter img{  max-height: 14px; max-width: 18px; }
+/*session details*/
+.ssnDtlsDoc{ margin-bottom: 15px;}
+.ssnDtlsDoc,.ssnDtlsfrm{ width: 100%; float: left; flex: auto;}
+.ssnDtl_dateRes,.home_slider .ssnDtl_dateRes{ display: block; margin: 0 2% 10px;}
+/*dashboard*/
+.dashboard .medWikiLeft{ width: 100%; padding-right: 0; margin-top: 20px;}
+.dashboard .feed_right_2{ width: 100%;}
+.dashboardpoWered img{ max-height: 26px; max-width: 110px;}
+.doctorDtlsPop .modal-dialog {
+	width: 400px;
+	max-width: 400px;
+}
+/*login*/
+.l_medwiki_pic{ height: 160px;}
+.l_medWiki_spec{ margin-bottom: 8px;}
+.l_medwikiTtl{ margin-bottom: 8px; padding: 0 2%;}
+.l_medwiki_pic:after{ height: 40px; bottom:-30px;}
+.sharePageMain .l_leftBox{ padding-bottom: 20px;}
+.l_session_body{ padding:20px 2% 0;}
+.l_session_topic{ margin-bottom: 15px;}
+.l_doctor_pic{ width: 110px; height: 110px; margin-bottom: 10px;}
+.l_doc_name{ margin-bottom: 10px;}
+.l_doc_name span{ margin-top: 0px;}
+.l_poweredBy{ margin-top: 20px;}
+.l_poweredByTtl{ margin-bottom: 2px;}
+.l_session_top{ text-align: center;}
+.l_session_type{ display: inline-block; float: none;}
+.l_session_time{ float: none; margin-top: 10px;}
+.l_session_time img{ padding:0;}
+
+.feedRow_date.ssnDtl_dateDesk{ display: inline-block;}
+.feedRow_date.ssnDtl_date.ssnDtl_dateDesk,.session_time.ssnDtl_dateDesk{ display: none;}
+/*p_peer*/
+.p_peerSubmit .cmnBtn{ padding: 10px; width: 50%; font-size: 12px;}
+.p_peerSubmit { width: 200px; bottom: 8px;}
+.dbDocPopRowTop .checkBoxIn{ width: 42px; height: 42px;}
+
+	.survey_p .feedRow_sponsors img{ max-height: 20px; max-width: 80px;;}
+	/*survey*/
+	.surveyRight{width: 100%; padding-right: 0;}
+	.surveyLeft{ width: 100%;}
+	/*survey_details*/	
+	.survey_details .surveyLeft{ float: right;}
+	.survey_details .surveyRight{ float: left; padding-left: 0px; padding-right: 0; margin-bottom: 20px;}
+	.survey_detailsBtmBox{ padding: 0 5px;}
+	.survey_detailsBtmIn{ padding: 5px 0;}
+	.survey_detailsBtm{ padding: 0px 10px;}
+	.survey_detailsBtmBtn{ margin-top: 10px;}
+	.survey_detailsBtmBtn img{ max-width: 18px;}
+
+	/*Survey Question*/
+	.srvQus_p{ margin-top: 30px;}
+	.srvQus_Box{ padding: 20px;}
+	.srvQus_QusTtl{ margin-bottom: 20px;}
+	.srvQus_QusProgress{ margin-top: 25px; margin-bottom: 10px;}
+	.srvQus_QusCheck1 .cmnCheckBox_row{ margin-bottom: 12px;}
+	.srvQus_QusCheck3 .cmnCheckBox_row{ margin-bottom: 12px;}
+
+	.dashboardSlider{ margin-bottom: 10px;}
+	.surveyHonorarium{ position: fixed; left: 50%; transform: translateX(-50%); bottom: 40px; z-index: 3;}
+	.surveyHonorarium .cmnCheckBox_row .form-check-label{ background-color: #FFF; box-shadow: 0 2px 15px 0 rgba(0,0,0,0.35); border-radius: 30px; font-size: 13px; padding: 10px 12px 10px 40px;color: #355ed3}
+	.surveyHonorarium .cmnCheckBox_row .form-check-input+.form-check-label:before,.surveyHonorarium  .cmnCheckBox_row .form-check-input+.form-check-label:after{ top: 50%; transform: translateY(-50%); left: 12px;}
+	.surveyHonorarium .cmnCheckBox_row .form-check-input+.form-check-label:before{ border-color: #355ed3;}
+	.surveyHonorarium .cmnCheckBox_row .form-check-input:checked+.form-check-label{ background-color: #355ed3; color: #fff;}
+	.surveyHonorarium  .cmnCheckBox_row .form-check-input:checked+.form-check-label:before{ border-color: #3e89fb; background-color: #3e89fb;}
+
+
+
+	.surveyRight_top ul{ width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between;}
+	.surveyRight_top ul li a{ line-height: 46px !important; padding:0 30px; font-size: 12px;}
+	.surveyRight_top{ margin-bottom: 10px;}
+	.surveyLeftBoxIcon{ width: 40px; height: 40px; left: 15px;}
+	.surveyLeftBoxArea li a{ min-height: 60px; height: 100%; padding: 15px 15px 15px 70px;}
+	.surveyLeftBoxArea ul{ display: flex; flex-wrap: wrap; justify-content: center;}
+
+	.survey_detailsBtmBtn2{ width: 100%; text-align: center;}
+	.timerQuizQus{ padding: 2px 8px; font-size: 12px;}
+	.surveyLeftBoxAreaBavkBtn{ margin-bottom: 4px;}
+
+	.srvPointsHstryRow-3:before, .srvPointsHstryRow-3:after{ display: none;;}
+	.srvPointsHstryRow{ text-align: center;}
+	.srvPointsHstryRow-1 img{ max-width: 120px; max-height: 50px;}
+	.srvPointsHstryRow-1{ padding: 10px 10px 5px;}
+	.srvPointsHstryRow-2{ padding: 10px 10px 5px;}
+	.srvPointsHstryRow-3{ padding: 10px 10px 5px;}
+
+	.srvTopBnner{ margin-top: 0px;}
+
+	.telemedPBody{ padding: 20px 0;}
+	.telemedPBody .container > .row{ margin: 0px;}
+	.telemedSec2{ padding: 30px 15px;}
+	.telemedSec2Box{ margin-top: 35px;}
+	.telemedSec2Ttl{ margin-bottom: 0;}
+	.telemedFtr{ padding: 15px;}
+	.telemedPBnnrContent{ padding:30px 0 0 0px;}
+	.telemedPBnnrRight{ padding: 30px 15px; text-align: center !important; background-color: #355ed3; border-radius: 70px 70px 0 0; position: relative; margin-top: 80px; overflow: hidden; position: relative;}
+	.telemedPBnnrRight:before{ position: absolute; top: -100px; left: -100px; width: 400px; height: 400px; background-color: #3b6bf1; content: ""; border-radius: 50%;}
+	.telemedPBnnrLeftMain { width: 200px; height: 410px;}
+	.telemedPBnnrLogo{ margin-bottom: 15px; max-height: 24px;}
+	.telemedPBnnrDownloadBtn{ padding: 10px 14px; margin: 15px 5px 0;}
+	.telemedPBnnrBG{  top: 0px; height: 300px; border-radius: 0 0 40px 40px;}
+	.telemedPBnnrLeftMain{ z-index: 3;}
+	.telemedPBnnrLeft:before{ position:absolute; width: 340px; height: 340px; transform: translateX(-50%); background-color: #dfe7ff; border-radius: 50%; content: ""; bottom: -50px;}
+	.telemedPBnnrLeft:after{ position:absolute; width: 280px; height: 280px; transform: translateX(-50%); background-color: #355ed3; border-radius: 50%; content: ""; bottom: -40px;}
+	
+	.videoArchiveLeftT-1 .feedRow_sponsors{ display: none;}
+	.videoArchiveLeftT-3 .feedRow_sponsors{ display: block; margin-top: 10px;}
+	.videoArchiveLeftT-3 .feedRow_sponsors span{ text-align: left;}
+
+	.videoArchiveLeftT-1 { padding: 0px 10px; margin-bottom: 3px;}
+	.videoArchiveLeftT-2{ padding: 0px 10px; margin-bottom: 10px;}
+	.videoArchive .feedcommentsArea{ padding-left: 10px;  padding-right: 10px;  margin-top: 10px;}
+	.videoArchive .feedDtls_comment{ margin-top: 10px; padding: 0 10px;}
+ .surveyLanding_p .surveyLeft{ top: 80px;}
+	
+}
+
+
+@media screen and (max-width:479px) {
+	.my_session_top ul li a{ padding: 0 8px; font-size: 11px;}
+	.cmnBtn{ padding: 12px 15px; display: inline-block;}
+.cmnBtn.btnCmnSmall{ padding: 6px 15px;}
+
+
+	.ssnCancelPop .modal-dialog{ width: auto;}
+	/*login*/
+	.l_rightIn .row.align-items-center> .col{ padding: 30px 20px;}
+	/*medwiki*/
+	.feedFter_left,.masonryBoxFeed .feedFter_left{ margin-right: 12px;}
+	.feed_footer .st-btn,.masonryBoxFeed .feed_footer .st-btn{ width: 24px;}
+	.feedFter_left:last-child,.masonryBoxFeed .feedFter_left:last-child{ margin-left: 2px;}
+	.feedRowTop{ padding-top: 8px; padding-bottom: 4px;}
+	.feedRowTop .feedRow_date{ margin-top: 6px; font-size: 11px;}
+	.feedRow_Pic img{ max-height: 180px;}
+	.feedDtls_commentSubmit{ font-size: 12px; width: 70px;}
+	.feedfooterComment{ padding: 0 80px 0 10px;}
+	/*profile*/
+	.profileRow_1{ text-align: center !important;}
+	.profileRow1_Right{ float: left; width: 100%; margin-top: 5px;}
+	.p_profile_sec_Pic{ float: none; display: inline-block;}
+
+	/*search*/
+	.searchResultInput,.dashboard .searchResultInput{ background-size: 18px; height: 48px; padding: 0 10px 0 36px;}
+	.searchResultSearch .searchFrmRow .btnBlue{ font-size: 12px; }
+	.dashboardpoWered img{ max-height: 22px; max-width: 80px;}
+	.dashboard .searchResultSearch .searchResultSearchTtl{ font-size: 14px;}
+	.dashboard .searchResultSearch .searchResultSearchTtl span{ font-size: 18px;}
+
+	.doctorDtlsPop .modal-dialog {
+		width:auto;
+		max-width: 100%;
+	}
+
+	.searchResultInput::placeholder {
+		color: #8b8b8b !important;
+		opacity: 1; /* Firefox */ font-size: 12px;
+		}
+		
+		.searchResultInput:-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: #8b8b8b !important; font-size: 12px;
+		}
+		
+		.searchResultInput::-ms-input-placeholder { /* Microsoft Edge */
+		color: #8b8b8b !important; font-size: 12px;
+		}
+		.right_pop{ width: 300px;}
+		.searchResult .ssnDtlsDocPic{ width: 70px; height: 70px;}
+		.searchResult .ssnDtlsDocInRight{ width: calc(100% - 70px); padding-left: 10px;}
+		.searchResult .ssnDtlsDocCont{ margin: 5px 0;}
+		.searchResult .ssnDtlsDocIn{ padding: 10px;}
+
+		/*peer*/
+		.arngDiscus_ttl{ font-size: 13px; padding-left: 10px; background-size: 14px;}
+		.arngDiscusleft{ padding: 0 10px;}
+		.arngDiscusleft .cmnRadio_row .form-check-label{ font-size: 11px; padding: 40px 5px 10px 5px;}
+		.arngDiscusleft .cmnRadio_row .form-check-label:before{ top: 10px;}
+		.arngDiscusleft .cmnRadio_row .form-check-label:after{ top: 14px;}
+
+		/*Survey Question*/
+		.srvQus_Box{ padding: 10px 3%; }
+		.srvQus_QusTtl{ padding-left: 10px;}
+		.srvQus_QusTtl:after{ width: 3px;}
+		.srvQus_BoxTtl{ margin-bottom: 25px;}
+		.srvQus_QusTtl{ font-size: 14px;}
+		.srvQus_QusPowerBy{ margin-top: 30px;}
+		.srvQus_QusCheck2 .cmnCheckBox_row{ width: 49.5%; }
+		.srvQus_QusCheck2 .cmnCheckBox_row .form-check-label{padding:12px 25px; }
+		.srvQus_QusCheck4 .cmnCheckBox_row .form-check-label{ height: 90px;}
+		.srvQus_QusCheck4 .cmnCheckBox_row .form-check-input+.form-check-label:after{width:50px;height:50px; border: 3px solid rgba(255,255,255,0.3); background-size: 16px;}
+
+		/*Dashboard*/
+		.dashboard .home_slider_Right{ padding: 10px;}
+		.dashboard .home_slider:before{ width: 90%;}
+		.dashboard .home_slider{ padding: 10px 10px 15px 10px;}
+		.dashboard .dashboardSlider .slick-dots{ height: 15px; right: 10px;}
+		.dashboard .dashboardSlider .slick-dots li{ width: 5px; height: 5px;  margin: 5px 0 5px 5px;}
+		.dashboard .home_slider .feedRow_ttl .font_16px{ font-size: 13px; line-height: 1 !important;}
+		.home_slider .session_Row{    padding-left: calc(60px + 6%); min-height: 64px;}
+		.home_slider .session_RowPIc { width: 60px; height: 60px;}
+
+		.surveyCollaps span{ width: 18px; height: 18px;}
+		.surveyLeftBoxArea li a{ padding: 10px 10px 15px; text-align:center;}
+		.surveyLeftBoxIcon{ position: relative; margin-bottom: 8px; top: auto; left: auto; transform: none; display: inline-block;}
+		.surveyLeftBoxArea li a:before{ bottom: -4px; left: 50%; transform: translate(-50%,0); top: auto; width: calc(100% - 30px); height: 8px;;}
+		.surveyRight_top ul li a{ padding: 0 14px;}
+
+		.telemedPBnnrLeftMain{width: 190px; height: 400px;}
+		.telemedPBnnrLeft:after{ width: 280px; height: 280px; bottom: -30px;}
+		.telemedPBnnrLeft:before{ width: 340px; height: 340px; bottom: -40px;}
+		.telemedPBnnrRight{ margin-top: 50px; border-radius: 30px 30px 0 0;}
+		.telemedPBnnrDownloadBtn{ padding: 10px 8px; margin: 15px 3px;}
+
+		.videoArchive .feedRow_speciality {
+			margin-right: 8px;
+			font-size: 10px;}
+			.videoArchive .feedRow_date.ssnDtl_dateDesk{ font-size: 10px;}
+ .surveyLanding_p .surveyLeft{ top: 74px;}
+} 

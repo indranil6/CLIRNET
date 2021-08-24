@@ -1,0 +1,205 @@
+@media screen and (max-width:640px) {
+    
+    /* h1, h2, h3, h4, h5, h6{ line-height: 1.3 !important;} */
+    .mblScreen .mblAnnouncment,.mblScreen .mblDoctorVoiceArea,.mblScreen .mblSession,.mblScreen .mblMedWiki,.mblScreen .mblGR,.mblScreen .mblPllsSrvs{ margin-bottom: 10px;}
+    .mblScreen .mblSessionClientItem img{ height: 28px;}
+    .mblScreen .mblSessionClient{ width: 120px;}
+    .mblScreen,.dskScreen.mblScreen{ padding-top: 90px; padding-bottom: 66px;}
+    .mblScreen .mblDotsMenu{ height: 20px; width: 20px;}
+    .mblScreen .mblDotsMenu span{ width: 5px; height: 5px;}
+    .mblScreen .mblNav{ height: 56px ;border-radius: 0 0 8px 8px; padding: 4px 3%;}
+    .mblScreen .mblNavRight ul li{ margin-left: 8px;}
+    .mblScreen .mblNavRight ul li a{ width: 38px; height: 38px;}
+    .mblScreen .mblNavRight ul li a img.translate_both{ max-width: 18px; max-height: 18px;}
+    .mblScreen .mblNavRight ul li.mblNavProfile a{ width: 48px; height: 48px; padding: 3px;}
+    .mblScreen .mblMarquee{ height: 30px; line-height: 30px;}
+
+    .mblScreen .mblAnnouncmentIcon{ width: 38px; height: 38px; top: -5px; left: -5px;}
+    .mblScreen .mblAnnouncmentIcon img{ max-width: 22px; max-height: 22px;}
+    .mblScreen .mblAnnouncmentClose{ width: 38px; height: 38px; top: -5px; right: -5px;}
+    .mblScreen .mblAnnouncmentClose img{ max-width: 14px; max-height: 14px; margin-top: 1px; margin-left: -1px;}
+    .mblScreen .mblAnnouncmentCont{ padding: 25px;}
+    .mblScreen .mblDoctorVoiceGraph1{ height: 50px;}
+    .mblScreen .mblDoctorVoice{ padding-top: 75px;}
+    .mblScreen .mblDoctorVoiceAnsRadio .form-check-label { padding: 10px 2%;}
+
+
+    .mblScreen .mblSessionBttmArea{ margin-top: -30px; padding-bottom: 10px;}
+    .mblScreen .mblSessionDocRow{ padding: 8px 2%; margin-bottom: 5px;}
+    .mblScreen .mblSessionDocPic{ width: 56px; height: 56px;}
+    .mblScreen .mblSessionDocTtl h4{ font-size: 14px; line-height: 1.1 !important;}
+    .mblScreen .mblSessionDocTtl span{ font-size: 12px; line-height: 1.1 !important;}
+    .mblScreen .mblSessionTopArea{ padding-top: 7px; padding-bottom: 34px;}
+    .mblScreen .mblDotsMenuSssnCard{ margin-left: 4px;}
+    .mblScreen .mblSessionDocTtl { width: calc(100% - 60px);}
+    .mblScreen .mblSessionTypeIcon{ width: 22px; height: 22px; margin-right: 3px;}
+    .mblScreen .mblSessionTypeIcon img{ max-width: 13px; max-height: 13px;}
+    .mblScreen .mblSessionType{ font-size: 10px;}
+    .mblScreen .mblSessionLive{ padding-left: 16px;}
+    .mblScreen .mblSessionTime .font_14px{ font-size: 10px;}
+    .mblScreen .liveAni{ width: 6px; height: 6px;}
+    .mblScreen .liveAni .aniBx{ width: 20px; height: 20px;     margin: -10px 0 0 -10px;}
+    .mblScreen .mblSessionTop{ margin-bottom: 10px;}
+    .mblScreen .mblSessionTopArea .font_30px{ font-size: 15px;}
+    .mblScreen .mblSessionbtm_a{ padding: 6px 10px; font-size: 12px;}
+
+    .mblScreen .mblMedWikiCard_link{ padding: 7px 0;}
+    .mblScreen .mblMedWikiPic{ width: 90px; height: 108px; padding: 4px 4px 4px 0;}
+    .mblScreen .mblMedWikiContent {  padding: 0 2% 0; width: calc(100% - 90px); }
+    .mblScreen .mblMedWikiContentTop{ margin-bottom: 6px;}
+    .mblScreen .mblMedWikiSpeacality{ padding: 4px 5px; font-size: 10px;}
+    .mblScreen .mblMedWikiSpeacalityDots{ padding: 2px 3px;}
+    .mblScreen .mblMedWikiSpeacalityDots span{ width: 3px; height: 3px;}
+    .mblScreen .mblMedWikiSpeacalityDots span:nth-child(2) {  margin: 0 1px;}
+
+    .mblScreen .mblGrSlider{ padding: 6px 0;}
+    .mblScreen .mblGrPic{ height: 120px; border-radius: 0 0 25px 25px;}
+    .mblScreen .mblGrContentTtl,.mblScreen .mblPllsSrvsContentTtl{ font-size: 14px; margin-bottom: 8px;}
+    .mblScreen .mblGrContentText,.mblScreen .mblPllsSrvsContentText{ font-size: 12px;}
+    .mblScreen .mblGrContent{ padding: 12px 2% 8px;}
+    .mblScreen .mblGrClient{ margin-top: 9px;float: right;}
+
+    .mblScreen .mblPllsSrvsDrwBox{ padding: 5px 2%; margin-bottom: 12px;}
+    .mblScreen .mblPllsSrvsPoints{ font-size: 12px;}
+    .mblScreen .mblPllsSrvsPoints span{ font-size: 22px; line-height: 1.1 !important;}
+    .mblScreen .mblPllsSrvsbtm_a{ padding: 6px 10px; font-size: 12px;}
+    .mblScreen .mblPllsSrvsbtm_a img{ margin-left: 5px; max-width: 16px;}
+    .mblScreen .mblPllsSrvsContent{ padding: 0 2% 10px; margin-top: -25px;}
+    .mblScreen .mblPllsSrvsPic{ height: 120px;}
+    .mblScreen .mblPllsSrvsTag{ padding: 5px 0 5px 2% ; top: 8px;}
+    .mblScreen .mblPllsSrvsTag:before{ right: -14px;}
+
+    .mblScreen .mblRecentSroll .mblRecentCard{ padding: 0; transform: scale(1); margin-top: 7px;}
+    .mblScreen .mblBtmNavArea{ height: 56px;}
+    .mblScreen .mblBtmNav li a{     font-size: 9px;
+    padding: 7px 4px;
+    line-height: 11px;}
+    .mblScreen .mblBtmNav li a span{ height: 20px;}
+    .mblScreen .mblBtmNav li a span img{ max-width: 26px;}
+    .mblScreen .mblDotsMenu.mblDotsCircle{ width: 14px; height: 30px;}
+
+    .mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon span{ width: 16px; height: 16px;}
+    .mblScreen .mblDotsMenuSettings .mblDotsMenuSettingsIcon{ padding-left: 20px; margin-bottom: 5px; }
+    .mblScreen .mblSessionSlider .mblSessionTop .row{ flex-direction: column-reverse;}
+    .mblScreen .mblSessionSlider .mblSessionTopRight{ width: 100%; align-items: flex-start;}
+    .mblScreen .mblSessionSlider .mblSessionType{ width: 100%; margin-top: -10px;}
+    .mblScreen .mblSessionSlider .mblSessionTime{ margin-top: 2px;}
+    .mblScreen .mblSessionTopIn .font_18px{ font-size: 14px;}
+
+
+    .mblScreen .medWiki  .feed_right{height: calc(100vh - 131px); top:76px;}
+    /* .mblScreen .medWikifilterRes{ bottom: 70px;} */
+
+    /*Hospital*/
+    .mblScreen .container.mycontainer{ padding: 0 2%;}
+    .mblScreen .mycontainer .dskHspltDbSliderPic-2,.mblScreen .mycontainer .dskHspltDbSliderPic-1{ display: none;}
+    .mblScreen .mycontainer .dskHspltDbSliderBoxInRight{ width: 100%; padding: 0px;}
+    .mblScreen .mycontainer .dskHspltDbSliderBox{ padding: 60px 2% 10px;}
+    .mblScreen .mycontainer .dskHspltDbSliderBoxInRight .font_16px,.mblScreen .mycontainer .dskHspltDbSliderBoxInRight.font_16px{ font-size: 12px;}
+    .mblScreen .mycontainer  .dskHspltDbSliderBoxInRight h2{ font-size: 16px;}
+    .mblScreen .mycontainer .dskHspltDbSliderBoxTag{ font-size: 12px;}
+    .mblScreen .mycontainer .dskHspltDbSliderArea:before{ width: calc(100% - 30px); border-radius: 8px; }
+    .mblScreen .mycontainer .dskHspltDbActivitiBx .dskHspltDbActivitiBxIn{ padding: 10px;}
+    .mblScreen .mycontainer .dskHspltDbActivitiBxIn:before{ width: 100px; height: 100px; top: -42px; right: -20px;}
+    .mblScreen .mycontainer .dskHspltDbActivitiBxCnt h3.colorWhite:before{ left: -10px;}
+    .mblScreen .mycontainer .dskHspltDbListTTlRight{ width: 100%; margin-top: 10px;}
+    .mblScreen .mycontainer .dskHspltDbSearch{ width: 100%;}
+    .mblScreen .mycontainer .dskHspltDbSearchInput{ height: 48px; padding: 0 48px 0 10px; font-size: 11px;}
+    .mblScreen .mycontainer .dskHspltDbSearchBttn{ width: 40px;}
+    .mblScreen .mycontainer .dskHspltDbSearchBttn img{ max-width: 20px; max-height: 20px;}
+    .mblScreen .mycontainer .dskHspltDbListTTlArea{ margin-bottom: 10px;}
+    .mblScreen .mycontainer .dskHspltDbListCard{ margin-top: -5px;}
+    .mblScreen .mycontainer .dskHspltDbCard{ margin-top: 5px;}
+    .mblScreen .mycontainer .dskHspltDbCardIn{ padding: 10px 2%;}
+    .mblScreen .mycontainer .dskHspltDbCardPic{ width: 70px; height: 70px; padding: 4px;}
+    .mblScreen .mycontainer .dskHspltDbCardRight {  width: calc(100% - 70px); padding-left: 10px;}
+    .mblScreen .mycontainer  .dskHspltDbCardPicIn .translate_both {  max-width: calc(100% - 10px); max-height: calc(100% - 10px);}
+    .mblScreen .mycontainer .dskHspltDbCardBttn img{ display: none;}
+    .mblScreen .mycontainer .dskHspltDbCardBttn{ padding: 7px 10px;}
+    .mblScreen .mycontainer .dskHspltDbCardLocation img{ max-height: 14px;}
+    .mblScreen .mycontainer .dskHspltDbCardRight .font_22px{ font-size: 14px;}
+    .mblScreen .mycontainer .dskHspltDbCardContent{ margin-top: 3px;}
+
+    .mblScreen .mycontainer .dskHspltPrflBnrLftContent .font_30px{ font-size: 16px;}
+    .mblScreen .mycontainer .dskHspltPrflBnrLftContent .font_16px{ font-size: 13px;}
+    .mblScreen .mycontainer  .dskHspltPrflBnrLftContent h6{ margin-bottom: 8px;}
+    .mblScreen .mycontainer .dskHspltPrflBnr > .row{ margin: 0 -2%;}
+    .mblScreen .mycontainer .dskHspltPrflBnrLft{ padding: 80px 2% 10px;}
+    .mblScreen .mycontainer .dskHspltPrflBnrRght{ padding: 10px 2%;}
+
+    .mblScreen .mycontainer .dskHspitalFormTtl{ padding: 10px 2%;}
+    .mblScreen .mycontainer .dskHspitalFormTtl:before{ right: 40%;}
+    .mblScreen .mycontainer .dskHspitalFormArea{ padding: 15px 2%;}
+    .mblScreen .mycontainer .dskHspitalFormLeft_in .dskHspltCmnTtl{ margin-bottom: 20px;}
+    .mblScreen .mycontainer .dskHspitalFormBody form .form-row{margin: -17px 0 0 -10px;}
+    .mblScreen .mycontainer .dskHspitalFormBody .form-group{padding: 0 0 0 10px; margin: 17px 0 0 0;}
+    .mblScreen .mycontainer .dskHspitalFormBody .form-control{ height: 50px; padding: 0 10px; font-size: 12px;}
+    .mblScreen .mycontainer .dskHspitalFormDblFile .dskHspitalFormDblFileIN{ height: 50px;}
+    .mblScreen .mycontainer  .dskHspitalFormFileINBig .dskHspitalFormDblFileIN{ height: auto; padding: 10px ;}
+    .mblScreen .mycontainer .dskHspitalFormBody textarea.form-control{ padding: 10px; height: 80px;}
+    .mblScreen .mycontainer .form-group .dskHspltDbCardBttn{ width: 100%; padding: 0 10px; height: 50px;}
+    .mblScreen .mycontainer .form-group .dskHspltDbCardBttn:before{ left: -20px;}
+    .mblScreen .mycontainer .dskHspitalFormFileBoxIn{ height: 70px;}
+    .mblScreen .mycontainer .dskHspitalFormFileShow{padding: 0 0 0 10px; margin: 17px 0 0 0;}
+    .mblScreen .mycontainer .dskHsptlReInitiateSelect{ margin-top: -25px; padding: 0 2%;}
+    .mblScreen .mycontainer .dskHsptlReInitiateSelect select.form-control{ height: 50px; border-radius:4px; padding-left: 10px; padding-right: 30px; font-size: 13px; background-size: 10px; background-position: right 10px center;}
+    .mblScreen .dskHspitalFormReInitiate .mycontainer  .dskHspitalFormTtl{ padding-bottom: 35px;}
+
+    .mblScreen .mycontainer .dskHspltActvTTlArea .dskHspltCmnTtl{ margin-bottom: 8px;}
+    .mblScreen .mycontainer .dskHspltActiveNav{ text-align: left;}
+    .mblScreen .mycontainer .dskHspltActiveNav li{ margin: 3px 3px 0 0 ;}
+    .mblScreen .mycontainer .dskHspltActiveNav li a{ border-radius: 6px;}
+    .mblScreen .mycontainer .dskHspitalFormBody .dskHspitalThankyouBtns{ padding: 0px;}
+    .mblScreen .mycontainer .dskHspitalFormBody .dskHspitalThankyouBtns .dskHspltDbCardBttn{ width: auto; padding:0 15px ; margin: 0 2px;}
+
+    .mblScreen .mblBtmMenuHome{ position: absolute;  left: 0px; top: -36px; }
+.mblScreen .mblBtmNav li.mblBtmMenuHome a{ padding: 0px;width: 50px; height: 36px;border-radius: 0 4px 0 0; background-color:rgba(255, 255, 255, 1);  }
+.mblScreen .mblBtmNav li.mblBtmMenuHome a span img{ max-width: 23px; max-height: 20px;}
+
+.mblScreen .hlsPlayerVideo{ height: 38vh !important;}
+}
+
+@media screen and (max-width:575px) {
+.mblScreen .mycontainer .hsptlConsentGFileMobile{ display: block;}
+    .mblScreen .mycontainer .hsptlConsentGFileDsk{ display: none;}
+}
+@media screen and (max-width:359px) {
+    .mblScreen .mblAnnouncment,.mblScreen .mblDoctorVoiceArea,.mblScreen .mblSession,.mblScreen .mblMedWiki,.mblScreen .mblGR,.mblScreen .mblPllsSrvs{ margin-bottom: 8px;}
+    .mblScreen .mblSessionCard,.mblScreen .mblMedWikiCard,.mblScreen .mblGrCard,.mblScreen .mblPllsSrvsCard{ padding: 0 0 0 2%; transform: scale(1);}
+    .mblScreen .mblNavLeftTtl,.mblScreen .mblAnnouncmentTtl{ font-size: 14px;}
+    .mblScreen .mblNavRight ul li{ margin-left: 4px;}
+    .mblScreen .mblMarquee{ font-size: 12px; height: 24px; line-height: 24px;}
+    .mblScreen .mblAnnouncmentCont .font_16px{ font-size: 12px;}
+    .mblScreen .mblAnnouncmentTtl{ margin-bottom: 0px;}
+    .mblScreen .mblAnnouncmentCont { padding: 25px 25px 12px;    }
+    .mblScreen .mblDoctorVoiceGraph1{ height: 40px;}
+    .mblScreen .mblDoctorVoiceContent .font_18px{ font-size: 12px; line-height: 1.1 !important;}
+    .mblScreen .mblDoctorVoiceAnsRadio .form-check-label{ font-size: 12px;}
+    .mblScreen .mblDoctorVoiceAnsRadio { margin-top: 4px;  }
+    .mblScreen .mblDoctorVoiceAns{ margin-top: 3px;}
+    .mblScreen .mblDoctorVoice{ padding-top: 52px; padding-bottom: 8px;}
+    .mblScreen .mblSessionDocPic{ width: 44px; height: 44px;}
+    .mblScreen .mblSessionDocTtl { width: calc(100% - 44px);  }
+    .mblScreen .mblSessionDocTtl h4{ font-size: 12px;}
+    .mblScreen .mblSessionDocTtl span{ font-size: 10px;}
+    .mblScreen .mblSessionTopArea .font_30px{ font-size: 13px;}
+    .mblScreen .mblSessionTopArea{ padding-bottom: 40px;}
+    .mblScreen .mblSessionClientItem img{ height: 28px;}
+    .mblScreen .mblSessionClient{ width: 114px;}
+    .mblScreen .mblSessionbtm_a{ font-size: 11px;}
+    .mblScreen .mblMedWikiPic{ width: 74px; height: 100px;}
+    .mblScreen .mblMedWikiContent{ width: calc(100% - 74px);}
+    .mblScreen .mblMedWikiContentTtl{ font-size: 12px;}
+   
+    .mblScreen .mblGrContentTtl, .mblScreen .mblPllsSrvsContentTtl{ font-size: 13px;}
+    .mblScreen .mblGrPic{ height: 90px;}
+    .mblScreen .mblGRTtl{ pad: 6px 2%;}
+
+    .mblScreen .mblBtmNav li a{ font-size: 8px; padding: 10px 0; line-height: 10px;}
+    .mblScreen .mblBtmNav li:first-child a{ padding-left: 2px;}
+    .mblScreen .mblSessionbtm{ margin-top: 8px;}
+    .mblScreen .mblMedWikiClient{ margin-top: 5px;}
+    .mblScreen .mycontainer .dskHspitalFormBody .dskHspitalThankyouBtns .dskHspltDbCardBttn{ font-size: 12px; padding: 0 10px;}
+    .mblScreen .mycontainer .dskHspitalFormBody .dskHspitalThankyouBtns{ margin-top: 10px;}
+}
+.mblGrLeftVideo > div{ height:100% !important;}
